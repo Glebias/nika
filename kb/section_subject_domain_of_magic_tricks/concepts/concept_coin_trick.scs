@@ -1,0 +1,21 @@
+concept_coin_trick
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_trick;
+=> nrel_main_idtf:
+    [фокус с монетой] (* <- lang_ru;; *);
+    [coin trick] (* <- lang_en;; *);
+=> nrel_note:
+    [фокус, основным реквизитом которого служит монета.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (фокус с монетой)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Фокус с монетой — фокус, основным реквизитом которого служит монета.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

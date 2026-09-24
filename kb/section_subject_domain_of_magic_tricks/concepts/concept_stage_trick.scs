@@ -1,0 +1,21 @@
+concept_stage_trick
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_trick;
+=> nrel_main_idtf:
+    [сценический фокус] (* <- lang_ru;; *);
+    [stage trick] (* <- lang_en;; *);
+=> nrel_note:
+    [фокус, рассчитанный на показ аудитории со сцены.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (сценический фокус)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Сценический фокус — фокус, рассчитанный на показ аудитории со сцены.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

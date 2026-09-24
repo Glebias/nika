@@ -1,0 +1,21 @@
+concept_cup
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_prop;
+=> nrel_main_idtf:
+    [кубок для фокуса] (* <- lang_ru;; *);
+    [magic cup] (* <- lang_en;; *);
+=> nrel_note:
+    [полый сосуд, под которым в фокусах скрывают или перемещают небольшие предметы.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (кубок для фокуса)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Кубок для фокуса — полый сосуд, под которым в фокусах скрывают или перемещают небольшие предметы.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

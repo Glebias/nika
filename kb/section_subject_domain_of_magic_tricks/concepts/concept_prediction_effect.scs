@@ -1,0 +1,21 @@
+concept_prediction_effect
+<- sc_node_class;
+<= nrel_inclusion: concept_mentalism_effect;
+=> nrel_main_idtf:
+    [эффект предсказания] (* <- lang_ru;; *);
+    [prediction effect] (* <- lang_en;; *);
+=> nrel_note:
+    [ментальный эффект, при котором заранее зафиксированная информация совпадает с последующим выбором или событием.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (эффект предсказания)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Эффект предсказания — ментальный эффект, при котором заранее зафиксированная информация совпадает с последующим выбором или событием.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

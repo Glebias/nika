@@ -1,0 +1,21 @@
+concept_ball
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_prop;
+=> nrel_main_idtf:
+    [шарик для фокуса] (* <- lang_ru;; *);
+    [magic ball] (* <- lang_en;; *);
+=> nrel_note:
+    [небольшой шар, используемый как объект появления, исчезновения или перемещения.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (шарик для фокуса)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Шарик для фокуса — небольшой шар, используемый как объект появления, исчезновения или перемещения.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

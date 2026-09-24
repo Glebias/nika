@@ -1,0 +1,21 @@
+concept_production_effect
+<- sc_node_class;
+<= nrel_inclusion: concept_appearance_effect;
+=> nrel_main_idtf:
+    [эффект возникновения множества предметов] (* <- lang_ru;; *);
+    [production effect] (* <- lang_en;; *);
+=> nrel_note:
+    [эффект последовательного появления нескольких предметов из кажущегося пустым места.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (эффект возникновения множества предметов)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Эффект возникновения множества предметов — эффект последовательного появления нескольких предметов из кажущегося пустым места.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

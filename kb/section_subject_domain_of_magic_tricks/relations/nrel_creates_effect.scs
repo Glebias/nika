@@ -1,0 +1,29 @@
+nrel_creates_effect
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [создаёт иллюзионный эффект*] (* <- lang_ru;; *);
+=> nrel_first_domain: concept_magic_trick;
+=> nrel_second_domain: concept_magic_effect;
+=> nrel_definitional_domain:
+    ...
+    (* <= nrel_combination: { concept_magic_trick; concept_magic_effect };; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (создаёт иллюзионный эффект*)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Отношение создаёт иллюзионный эффект* связывает фокус с воспринимаемым зрителем иллюзионным эффектом.]
+                (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants: { concept_magic_trick; concept_magic_effect };;
+    *);;

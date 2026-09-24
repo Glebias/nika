@@ -1,0 +1,29 @@
+nrel_included_in_routine
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [входит в иллюзионный номер*] (* <- lang_ru;; *);
+=> nrel_first_domain: concept_magic_trick;
+=> nrel_second_domain: concept_magic_routine;
+=> nrel_definitional_domain:
+    ...
+    (* <= nrel_combination: { concept_magic_trick; concept_magic_routine };; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (входит в иллюзионный номер*)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Отношение входит в иллюзионный номер* связывает отдельный фокус с номером, частью которого он является.]
+                (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants: { concept_magic_trick; concept_magic_routine };;
+    *);;

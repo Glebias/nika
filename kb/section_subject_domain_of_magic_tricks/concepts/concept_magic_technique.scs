@@ -1,0 +1,21 @@
+concept_magic_technique
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_performance_entity;
+=> nrel_main_idtf:
+    [техника исполнения фокуса] (* <- lang_ru;; *);
+    [magic technique] (* <- lang_en;; *);
+=> nrel_note:
+    [освоенный способ действий, применяемый для создания иллюзионного эффекта.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (техника исполнения фокуса)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Техника исполнения фокуса — освоенный способ действий, применяемый для создания иллюзионного эффекта.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

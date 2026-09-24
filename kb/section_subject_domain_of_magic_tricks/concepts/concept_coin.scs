@@ -1,0 +1,21 @@
+concept_coin
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_prop;
+=> nrel_main_idtf:
+    [монета для фокуса] (* <- lang_ru;; *);
+    [magic coin] (* <- lang_en;; *);
+=> nrel_note:
+    [монета или похожий жетон, используемый как реквизит.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (монета для фокуса)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Монета для фокуса — монета или похожий жетон, используемый как реквизит.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

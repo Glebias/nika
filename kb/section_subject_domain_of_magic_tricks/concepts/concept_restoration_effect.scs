@@ -1,0 +1,21 @@
+concept_restoration_effect
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_effect;
+=> nrel_main_idtf:
+    [эффект восстановления] (* <- lang_ru;; *);
+    [restoration effect] (* <- lang_en;; *);
+=> nrel_note:
+    [иллюзионный эффект кажущегося возвращения повреждённого объекта в исходное состояние.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (эффект восстановления)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Эффект восстановления — иллюзионный эффект кажущегося возвращения повреждённого объекта в исходное состояние.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

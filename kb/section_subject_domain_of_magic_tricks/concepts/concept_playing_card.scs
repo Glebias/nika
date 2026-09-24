@@ -1,0 +1,21 @@
+concept_playing_card
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_prop;
+=> nrel_main_idtf:
+    [игральная карта] (* <- lang_ru;; *);
+    [playing card] (* <- lang_en;; *);
+=> nrel_note:
+    [отдельная карта, применяемая как реквизит в карточных фокусах.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (игральная карта)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Игральная карта — отдельная карта, применяемая как реквизит в карточных фокусах.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

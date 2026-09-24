@@ -1,0 +1,21 @@
+concept_spectator
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_participant;
+=> nrel_main_idtf:
+    [зритель фокуса] (* <- lang_ru;; *);
+    [magic spectator] (* <- lang_en;; *);
+=> nrel_note:
+    [человек, которому демонстрируется фокус.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (зритель фокуса)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Зритель фокуса — человек, которому демонстрируется фокус.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

@@ -1,0 +1,21 @@
+concept_escape_trick
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_trick;
+=> nrel_main_idtf:
+    [фокус с освобождением] (* <- lang_ru;; *);
+    [escape trick] (* <- lang_en;; *);
+=> nrel_note:
+    [фокус, в котором исполнитель демонстрирует кажущееся невозможным освобождение от ограничений.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (фокус с освобождением)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Фокус с освобождением — фокус, в котором исполнитель демонстрирует кажущееся невозможным освобождение от ограничений.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

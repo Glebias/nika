@@ -1,0 +1,21 @@
+concept_assistant
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_participant;
+=> nrel_main_idtf:
+    [ассистент иллюзиониста] (* <- lang_ru;; *);
+    [magician assistant] (* <- lang_en;; *);
+=> nrel_note:
+    [участник, помогающий иллюзионисту подготовить или исполнить фокус.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (ассистент иллюзиониста)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Ассистент иллюзиониста — участник, помогающий иллюзионисту подготовить или исполнить фокус.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

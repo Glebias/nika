@@ -1,0 +1,21 @@
+concept_mentalism_trick
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_trick;
+=> nrel_main_idtf:
+    [ментальный фокус] (* <- lang_ru;; *);
+    [mentalism trick] (* <- lang_en;; *);
+=> nrel_note:
+    [фокус, результат которого представлен как чтение мыслей, предсказание или необычная способность памяти.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (ментальный фокус)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Ментальный фокус — фокус, результат которого представлен как чтение мыслей, предсказание или необычная способность памяти.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

@@ -1,0 +1,21 @@
+concept_vanish_effect
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_effect;
+=> nrel_main_idtf:
+    [эффект исчезновения] (* <- lang_ru;; *);
+    [vanish effect] (* <- lang_en;; *);
+=> nrel_note:
+    [иллюзионный эффект, при котором наблюдаемый объект перестаёт быть видимым.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (эффект исчезновения)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Эффект исчезновения — иллюзионный эффект, при котором наблюдаемый объект перестаёт быть видимым.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

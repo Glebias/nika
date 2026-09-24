@@ -1,0 +1,21 @@
+concept_cups_and_balls_trick
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_trick;
+=> nrel_main_idtf:
+    [фокус с кубками и шариками] (* <- lang_ru;; *);
+    [cups and balls trick] (* <- lang_en;; *);
+=> nrel_note:
+    [фокус, в котором шарики появляются, исчезают или перемещаются под кубками.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (фокус с кубками и шариками)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Фокус с кубками и шариками — фокус, в котором шарики появляются, исчезают или перемещаются под кубками.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

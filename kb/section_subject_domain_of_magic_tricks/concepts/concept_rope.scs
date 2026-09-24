@@ -1,0 +1,21 @@
+concept_rope
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_prop;
+=> nrel_main_idtf:
+    [верёвка для фокуса] (* <- lang_ru;; *);
+    [magic rope] (* <- lang_en;; *);
+=> nrel_note:
+    [отрезок верёвки, используемый в верёвочных фокусах.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (верёвка для фокуса)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Верёвка для фокуса — отрезок верёвки, используемый в верёвочных фокусах.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

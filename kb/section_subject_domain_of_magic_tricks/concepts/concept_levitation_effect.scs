@@ -1,0 +1,21 @@
+concept_levitation_effect
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_effect;
+=> nrel_main_idtf:
+    [эффект левитации] (* <- lang_ru;; *);
+    [levitation effect] (* <- lang_en;; *);
+=> nrel_note:
+    [иллюзионный эффект кажущегося парения объекта или человека без видимой опоры.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (эффект левитации)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Эффект левитации — иллюзионный эффект кажущегося парения объекта или человека без видимой опоры.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

@@ -1,0 +1,21 @@
+concept_close_up_trick
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_trick;
+=> nrel_main_idtf:
+    [микромагический фокус] (* <- lang_ru;; *);
+    [close-up trick] (* <- lang_en;; *);
+=> nrel_note:
+    [фокус, исполняемый рядом со зрителями с небольшим реквизитом.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (микромагический фокус)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Микромагический фокус — фокус, исполняемый рядом со зрителями с небольшим реквизитом.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

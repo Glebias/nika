@@ -1,0 +1,29 @@
+nrel_assisted_by
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [исполняется с помощью ассистента*] (* <- lang_ru;; *);
+=> nrel_first_domain: concept_magic_trick;
+=> nrel_second_domain: concept_assistant;
+=> nrel_definitional_domain:
+    ...
+    (* <= nrel_combination: { concept_magic_trick; concept_assistant };; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (исполняется с помощью ассистента*)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Отношение исполняется с помощью ассистента* связывает фокус с ассистентом, участвующим в его исполнении.]
+                (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants: { concept_magic_trick; concept_assistant };;
+    *);;

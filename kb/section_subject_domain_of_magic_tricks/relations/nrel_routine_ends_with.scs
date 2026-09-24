@@ -1,0 +1,29 @@
+nrel_routine_ends_with
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [заканчивается фокусом*] (* <- lang_ru;; *);
+=> nrel_first_domain: concept_magic_routine;
+=> nrel_second_domain: concept_magic_trick;
+=> nrel_definitional_domain:
+    ...
+    (* <= nrel_combination: { concept_magic_routine; concept_magic_trick };; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (заканчивается фокусом*)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Отношение заканчивается фокусом* указывает заключительный фокус иллюзионного номера.]
+                (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants: { concept_magic_routine; concept_magic_trick };;
+    *);;

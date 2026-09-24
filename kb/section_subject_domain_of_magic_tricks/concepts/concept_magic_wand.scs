@@ -1,0 +1,21 @@
+concept_magic_wand
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_prop;
+=> nrel_main_idtf:
+    [волшебная палочка] (* <- lang_ru;; *);
+    [magic wand] (* <- lang_en;; *);
+=> nrel_note:
+    [жезл, используемый иллюзионистом как реквизит и средство управления вниманием.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (волшебная палочка)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Волшебная палочка — жезл, используемый иллюзионистом как реквизит и средство управления вниманием.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

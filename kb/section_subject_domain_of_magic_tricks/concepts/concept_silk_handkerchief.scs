@@ -1,0 +1,21 @@
+concept_silk_handkerchief
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_prop;
+=> nrel_main_idtf:
+    [иллюзионный платок] (* <- lang_ru;; *);
+    [magic silk] (* <- lang_en;; *);
+=> nrel_note:
+    [лёгкий платок, используемый для появления, исчезновения или превращения предметов.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (иллюзионный платок)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Иллюзионный платок — лёгкий платок, используемый для появления, исчезновения или превращения предметов.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

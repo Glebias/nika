@@ -1,0 +1,21 @@
+concept_magic_prop
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_performance_entity;
+=> nrel_main_idtf:
+    [иллюзионный реквизит] (* <- lang_ru;; *);
+    [magic prop] (* <- lang_en;; *);
+=> nrel_note:
+    [предмет, используемый при подготовке или исполнении фокуса.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (иллюзионный реквизит)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Иллюзионный реквизит — предмет, используемый при подготовке или исполнении фокуса.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

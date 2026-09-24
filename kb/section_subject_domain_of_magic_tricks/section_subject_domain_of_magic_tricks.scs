@@ -1,0 +1,107 @@
+section_subject_domain_of_magic_tricks
+=> nrel_main_idtf:
+    [Раздел. Предметная область фокусов и иллюзионного искусства]
+    (* <- lang_ru;; *);
+<- atomic_section;;
+
+section_subject_domain_of_magic_tricks = [*
+    subject_domain_of_magic_tricks
+    <- sc_node_struct;
+    => nrel_main_idtf:
+        [Предметная область фокусов и иллюзионного искусства]
+        (* <- lang_ru;; *);
+    <- subject_domain;
+    -> rrel_maximum_studied_object_class:
+        concept_magic_performance_entity;
+    -> rrel_not_maximum_studied_object_class:
+        concept_magic_trick;
+        concept_magic_routine;
+        concept_magic_show;
+        concept_magic_participant;
+        concept_magician;
+        concept_assistant;
+        concept_spectator;
+        concept_magic_prop;
+        concept_playing_card;
+        concept_card_deck;
+        concept_coin;
+        concept_rope;
+        concept_cup;
+        concept_ball;
+        concept_magic_technique;
+        concept_sleight_of_hand;
+        concept_misdirection;
+        concept_magic_effect;
+        concept_appearance_effect;
+        concept_vanish_effect;
+        concept_transformation_effect;
+        concept_transposition_effect;
+        concept_restoration_effect;
+        concept_levitation_effect;
+        concept_mentalism_effect;
+        concept_card_trick;
+        concept_coin_trick;
+        concept_rope_trick;
+        concept_cups_and_balls_trick;
+        concept_close_up_trick;
+        concept_stage_trick;
+        concept_silk_handkerchief;
+        concept_magic_wand;
+        concept_magic_box;
+        concept_escape_trick;
+        concept_mentalism_trick;
+        concept_production_effect;
+        concept_penetration_effect;
+        concept_prediction_effect;
+    -> rrel_explored_relation:
+        nrel_uses_prop;
+        nrel_uses_technique;
+        nrel_creates_effect;
+        nrel_performed_by;
+        nrel_assisted_by;
+        nrel_presented_to;
+        nrel_part_of_show;
+        nrel_precedes_trick;
+        nrel_variant_of_trick;
+        nrel_contains_card;
+        nrel_selected_by_spectator;
+        nrel_hidden_by_magician;
+        nrel_attention_directed_to;
+        nrel_participates_in_show;
+        nrel_included_in_routine;
+        nrel_routine_begins_with;
+        nrel_routine_ends_with;
+        nrel_transforms_into;
+        nrel_restored_from;
+        nrel_effect_achieved_by;;
+*];;
+
+section_subject_domain_of_magic_tricks
+-> rrel_key_sc_element:
+    subject_domain_of_magic_tricks;
+    concept_magic_performance_entity;
+    concept_magic_trick;
+    concept_magic_participant;
+    concept_magic_prop;
+    concept_magic_technique;
+    concept_magic_effect;
+    nrel_uses_prop;
+    nrel_uses_technique;
+    nrel_creates_effect;
+    nrel_performed_by;
+    nrel_assisted_by;
+    nrel_presented_to;
+    nrel_part_of_show;
+    nrel_precedes_trick;
+    nrel_variant_of_trick;
+    nrel_contains_card;
+    nrel_selected_by_spectator;
+    nrel_hidden_by_magician;
+    nrel_attention_directed_to;
+    nrel_participates_in_show;
+    nrel_included_in_routine;
+    nrel_routine_begins_with;
+    nrel_routine_ends_with;
+    nrel_transforms_into;
+    nrel_restored_from;
+    nrel_effect_achieved_by;;

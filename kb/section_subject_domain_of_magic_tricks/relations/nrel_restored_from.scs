@@ -1,0 +1,29 @@
+nrel_restored_from
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [восстанавливается из*] (* <- lang_ru;; *);
+=> nrel_first_domain: concept_magic_prop;
+=> nrel_second_domain: concept_magic_prop;
+=> nrel_definitional_domain:
+    ...
+    (* <= nrel_combination: { concept_magic_prop; concept_magic_prop };; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (восстанавливается из*)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Отношение восстанавливается из* связывает восстановленный реквизит с его демонстрировавшимся повреждённым состоянием.]
+                (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants: { concept_magic_prop; concept_magic_prop };;
+    *);;

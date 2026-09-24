@@ -1,0 +1,21 @@
+concept_magic_box
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_prop;
+=> nrel_main_idtf:
+    [иллюзионный ящик] (* <- lang_ru;; *);
+    [magic box] (* <- lang_en;; *);
+=> nrel_note:
+    [специально подготовленный контейнер, применяемый для сокрытия способа фокуса.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (иллюзионный ящик)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Иллюзионный ящик — специально подготовленный контейнер, применяемый для сокрытия способа фокуса.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

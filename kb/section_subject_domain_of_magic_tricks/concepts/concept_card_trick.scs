@@ -1,0 +1,21 @@
+concept_card_trick
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_trick;
+=> nrel_main_idtf:
+    [карточный фокус] (* <- lang_ru;; *);
+    [card trick] (* <- lang_en;; *);
+=> nrel_note:
+    [фокус, основным реквизитом которого служит игральная карта или колода.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (карточный фокус)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Карточный фокус — фокус, основным реквизитом которого служит игральная карта или колода.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

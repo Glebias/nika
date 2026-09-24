@@ -1,0 +1,21 @@
+concept_appearance_effect
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_effect;
+=> nrel_main_idtf:
+    [эффект появления] (* <- lang_ru;; *);
+    [appearance effect] (* <- lang_en;; *);
+=> nrel_note:
+    [иллюзионный эффект, при котором объект кажется возникшим там, где его до этого не наблюдали.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (эффект появления)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Эффект появления — иллюзионный эффект, при котором объект кажется возникшим там, где его до этого не наблюдали.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

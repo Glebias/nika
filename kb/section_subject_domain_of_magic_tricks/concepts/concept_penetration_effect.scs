@@ -1,0 +1,21 @@
+concept_penetration_effect
+<- sc_node_class;
+<= nrel_inclusion: concept_magic_effect;
+=> nrel_main_idtf:
+    [эффект проникновения] (* <- lang_ru;; *);
+    [penetration effect] (* <- lang_en;; *);
+=> nrel_note:
+    [иллюзионный эффект кажущегося прохождения одного твёрдого объекта сквозь другой.] (* <- lang_ru;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (эффект проникновения)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Эффект проникновения — иллюзионный эффект кажущегося прохождения одного твёрдого объекта сквозь другой.]
+                (* <- lang_ru;; *);;
+            *);;
+    *);;

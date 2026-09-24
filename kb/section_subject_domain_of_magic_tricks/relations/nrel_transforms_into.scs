@@ -1,0 +1,29 @@
+nrel_transforms_into
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [превращается в*] (* <- lang_ru;; *);
+=> nrel_first_domain: concept_magic_prop;
+=> nrel_second_domain: concept_magic_prop;
+=> nrel_definitional_domain:
+    ...
+    (* <= nrel_combination: { concept_magic_prop; concept_magic_prop };; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+            [Опр. (превращается в*)] (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (* -> rrel_example:
+                [Отношение превращается в* связывает исходный реквизит с объектом, в который он как будто превращается.]
+                (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants: { concept_magic_prop; concept_magic_prop };;
+    *);;

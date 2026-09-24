@@ -1,0 +1,200 @@
+magic_show_evening_of_wonders
+<- concept_magic_performance_entity;
+<- concept_magic_show;
+=> nrel_main_idtf: [Вечер чудес] (* <- lang_ru;; *);;
+
+magic_routine_classic_cups_and_balls
+<- concept_magic_routine;
+=> nrel_main_idtf: [Классический номер с кубками и шариками] (* <- lang_ru;; *);;
+
+magician_alexander
+<- concept_magic_participant;
+<- concept_magician;
+=> nrel_main_idtf: [Иллюзионист Александр] (* <- lang_ru;; *);;
+
+assistant_marina
+<- concept_assistant;
+=> nrel_main_idtf: [Ассистент Марина] (* <- lang_ru;; *);;
+
+spectator_ivan
+<- concept_spectator;
+=> nrel_main_idtf: [Зритель Иван] (* <- lang_ru;; *);;
+
+ace_of_spades
+<- concept_magic_prop;
+<- concept_playing_card;
+=> nrel_main_idtf: [Пиковый туз] (* <- lang_ru;; *);;
+
+bicycle_card_deck
+<- concept_card_deck;
+=> nrel_main_idtf: [Колода Bicycle] (* <- lang_ru;; *);;
+
+half_dollar_coin
+<- concept_coin;
+=> nrel_main_idtf: [Монета полдоллара] (* <- lang_ru;; *);;
+
+white_magic_rope
+<- concept_rope;
+=> nrel_main_idtf: [Белая верёвка] (* <- lang_ru;; *);;
+
+brass_magic_cup
+<- concept_cup;
+=> nrel_main_idtf: [Латунный кубок] (* <- lang_ru;; *);;
+
+red_magic_ball
+<- concept_ball;
+=> nrel_main_idtf: [Красный шарик] (* <- lang_ru;; *);;
+
+red_silk
+<- concept_silk_handkerchief;
+=> nrel_main_idtf: [Красный иллюзионный платок] (* <- lang_ru;; *);;
+
+black_magic_wand
+<- concept_magic_wand;
+=> nrel_main_idtf: [Чёрная волшебная палочка] (* <- lang_ru;; *);;
+
+double_wall_magic_box
+<- concept_magic_box;
+=> nrel_main_idtf: [Иллюзионный ящик с двойной стенкой] (* <- lang_ru;; *);;
+
+french_drop
+<- concept_magic_technique;
+<- concept_sleight_of_hand;
+=> nrel_main_idtf: [Французский сброс] (* <- lang_ru;; *);;
+
+gaze_misdirection
+<- concept_misdirection;
+=> nrel_main_idtf: [Отвлечение внимания направлением взгляда] (* <- lang_ru;; *);;
+
+effect_ball_appearance
+<- concept_magic_effect;
+<- concept_appearance_effect;
+<- concept_production_effect;
+=> nrel_main_idtf: [Появление шарика под кубком] (* <- lang_ru;; *);;
+
+effect_coin_vanish
+<- concept_vanish_effect;
+=> nrel_main_idtf: [Исчезновение монеты из руки] (* <- lang_ru;; *);;
+
+effect_silk_to_wand
+<- concept_transformation_effect;
+=> nrel_main_idtf: [Превращение платка в палочку] (* <- lang_ru;; *);;
+
+effect_card_transposition
+<- concept_transposition_effect;
+=> nrel_main_idtf: [Перемещение выбранной карты] (* <- lang_ru;; *);;
+
+effect_rope_restoration
+<- concept_restoration_effect;
+=> nrel_main_idtf: [Восстановление разрезанной верёвки] (* <- lang_ru;; *);;
+
+effect_floating_table
+<- concept_levitation_effect;
+=> nrel_main_idtf: [Левитация стола] (* <- lang_ru;; *);;
+
+effect_thought_revelation
+<- concept_mentalism_effect;
+=> nrel_main_idtf: [Раскрытие задуманного слова] (* <- lang_ru;; *);;
+
+effect_rings_penetration
+<- concept_penetration_effect;
+=> nrel_main_idtf: [Проникновение металлических колец] (* <- lang_ru;; *);;
+
+effect_sealed_prediction
+<- concept_prediction_effect;
+=> nrel_main_idtf: [Совпадение запечатанного предсказания] (* <- lang_ru;; *);;
+
+trick_ambitious_card
+<- concept_magic_trick;
+<- concept_card_trick;
+<- concept_close_up_trick;
+=> nrel_main_idtf: [Амбициозная карта] (* <- lang_ru;; *);;
+
+trick_card_returns_to_top
+<- concept_card_trick;
+=> nrel_main_idtf: [Возвращение карты наверх колоды] (* <- lang_ru;; *);;
+
+trick_coin_vanish
+<- concept_coin_trick;
+<- concept_close_up_trick;
+=> nrel_main_idtf: [Исчезновение монеты французским сбросом] (* <- lang_ru;; *);;
+
+trick_cut_and_restored_rope
+<- concept_rope_trick;
+=> nrel_main_idtf: [Разрезанная и восстановленная верёвка] (* <- lang_ru;; *);;
+
+trick_cups_and_balls
+<- concept_cups_and_balls_trick;
+=> nrel_main_idtf: [Кубки и шарики] (* <- lang_ru;; *);;
+
+trick_floating_table
+<- concept_stage_trick;
+=> nrel_main_idtf: [Летающий стол] (* <- lang_ru;; *);;
+
+trick_book_test
+<- concept_mentalism_trick;
+=> nrel_main_idtf: [Книжный тест] (* <- lang_ru;; *);;
+
+trick_handcuff_escape
+<- concept_escape_trick;
+=> nrel_main_idtf: [Освобождение от наручников] (* <- lang_ru;; *);;
+
+cut_white_rope
+<- concept_rope;
+=> nrel_main_idtf: [Разрезанная белая верёвка] (* <- lang_ru;; *);;
+
+trick_ambitious_card
+=> nrel_uses_prop: bicycle_card_deck;
+=> nrel_uses_prop: ace_of_spades;
+=> nrel_uses_technique: french_drop;
+=> nrel_creates_effect: effect_card_transposition;
+=> nrel_performed_by: magician_alexander;
+=> nrel_presented_to: spectator_ivan;
+=> nrel_part_of_show: magic_show_evening_of_wonders;
+=> nrel_variant_of_trick: trick_card_returns_to_top;
+=> nrel_included_in_routine: magic_routine_classic_cups_and_balls;;
+
+trick_coin_vanish
+=> nrel_uses_prop: half_dollar_coin;
+=> nrel_uses_technique: french_drop;
+=> nrel_creates_effect: effect_coin_vanish;
+=> nrel_performed_by: magician_alexander;
+=> nrel_presented_to: spectator_ivan;
+=> nrel_part_of_show: magic_show_evening_of_wonders;;
+
+trick_cut_and_restored_rope
+=> nrel_uses_prop: white_magic_rope;
+=> nrel_creates_effect: effect_rope_restoration;
+=> nrel_assisted_by: assistant_marina;
+=> nrel_part_of_show: magic_show_evening_of_wonders;;
+
+trick_cups_and_balls
+=> nrel_uses_prop: brass_magic_cup;
+=> nrel_uses_prop: red_magic_ball;
+=> nrel_uses_technique: gaze_misdirection;
+=> nrel_creates_effect: effect_ball_appearance;
+=> nrel_part_of_show: magic_show_evening_of_wonders;
+=> nrel_included_in_routine: magic_routine_classic_cups_and_balls;;
+
+trick_floating_table
+=> nrel_creates_effect: effect_floating_table;
+=> nrel_assisted_by: assistant_marina;
+=> nrel_part_of_show: magic_show_evening_of_wonders;;
+
+trick_book_test
+=> nrel_creates_effect: effect_thought_revelation;
+=> nrel_part_of_show: magic_show_evening_of_wonders;;
+
+bicycle_card_deck => nrel_contains_card: ace_of_spades;;
+ace_of_spades => nrel_selected_by_spectator: spectator_ivan;;
+half_dollar_coin => nrel_hidden_by_magician: magician_alexander;;
+magician_alexander => nrel_attention_directed_to: black_magic_wand;;
+magician_alexander => nrel_participates_in_show: magic_show_evening_of_wonders;;
+assistant_marina => nrel_participates_in_show: magic_show_evening_of_wonders;;
+spectator_ivan => nrel_participates_in_show: magic_show_evening_of_wonders;;
+magic_routine_classic_cups_and_balls => nrel_routine_begins_with: trick_cups_and_balls;;
+magic_routine_classic_cups_and_balls => nrel_routine_ends_with: trick_ambitious_card;;
+trick_cups_and_balls => nrel_precedes_trick: trick_ambitious_card;;
+red_silk => nrel_transforms_into: black_magic_wand;;
+white_magic_rope => nrel_restored_from: cut_white_rope;;
+effect_coin_vanish => nrel_effect_achieved_by: french_drop;;
