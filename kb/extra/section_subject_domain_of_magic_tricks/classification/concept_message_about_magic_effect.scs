@@ -1,0 +1,30 @@
+concept_message_about_magic_effect
+<- sc_node_class;
+<- concept_intent_possible_class;
+=> nrel_main_idtf:
+    [сообщение с вопросом об эффекте фокуса]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [magic_effect_query];
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение с вопросом об эффекте фокуса)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение с вопросом об эффекте фокуса — атомарное сообщение, в котором пользователь запрашивает иллюзионный эффект, создаваемый указанным фокусом.]
+            (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_atomic_message;
+            concept_magic_trick;
+            concept_magic_effect;
+            nrel_creates_effect
+        };;
+    *);;

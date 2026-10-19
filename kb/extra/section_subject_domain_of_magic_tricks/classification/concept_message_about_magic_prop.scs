@@ -1,0 +1,30 @@
+concept_message_about_magic_prop
+<- sc_node_class;
+<- concept_intent_possible_class;
+=> nrel_main_idtf:
+    [сообщение с вопросом о реквизите фокуса]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [magic_prop_query];
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение с вопросом о реквизите фокуса)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение с вопросом о реквизите фокуса — атомарное сообщение, в котором пользователь запрашивает реквизит, используемый при исполнении указанного фокуса.]
+            (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_atomic_message;
+            concept_magic_trick;
+            concept_magic_prop;
+            nrel_uses_prop
+        };;
+    *);;

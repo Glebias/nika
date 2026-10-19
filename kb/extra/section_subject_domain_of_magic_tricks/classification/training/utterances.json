@@ -1,0 +1,1424 @@
+[
+    {
+        "text":  "Что такое сущность иллюзионного искусства?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  41,
+                             "body":  "сущность иллюзионного искусства",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое фокус?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  15,
+                             "body":  "фокус",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое иллюзионный номер?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  27,
+                             "body":  "иллюзионный номер",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое иллюзионное представление?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  35,
+                             "body":  "иллюзионное представление",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое участник иллюзионного представления?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  45,
+                             "body":  "участник иллюзионного представления",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое иллюзионист?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  21,
+                             "body":  "иллюзионист",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое ассистент иллюзиониста?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  32,
+                             "body":  "ассистент иллюзиониста",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое зритель фокуса?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  24,
+                             "body":  "зритель фокуса",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое иллюзионный реквизит?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  30,
+                             "body":  "иллюзионный реквизит",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое игральная карта?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  25,
+                             "body":  "игральная карта",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое колода игральных карт?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  31,
+                             "body":  "колода игральных карт",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое монета для фокуса?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  27,
+                             "body":  "монета для фокуса",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое верёвка для фокуса?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  28,
+                             "body":  "верёвка для фокуса",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое кубок для фокуса?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  26,
+                             "body":  "кубок для фокуса",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое шарик для фокуса?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  26,
+                             "body":  "шарик для фокуса",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое техника исполнения фокуса?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  35,
+                             "body":  "техника исполнения фокуса",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое ловкость рук?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  22,
+                             "body":  "ловкость рук",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое отвлечение внимания?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  29,
+                             "body":  "отвлечение внимания",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое иллюзионный эффект?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  28,
+                             "body":  "иллюзионный эффект",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое эффект появления?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  26,
+                             "body":  "эффект появления",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое эффект исчезновения?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  29,
+                             "body":  "эффект исчезновения",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое эффект превращения?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  28,
+                             "body":  "эффект превращения",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое эффект перемещения?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  28,
+                             "body":  "эффект перемещения",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое эффект восстановления?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  31,
+                             "body":  "эффект восстановления",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое эффект левитации?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  26,
+                             "body":  "эффект левитации",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое ментальный эффект?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  27,
+                             "body":  "ментальный эффект",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое карточный фокус?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  25,
+                             "body":  "карточный фокус",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое фокус с монетой?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  25,
+                             "body":  "фокус с монетой",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое фокус с верёвкой?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  26,
+                             "body":  "фокус с верёвкой",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое фокус с кубками и шариками?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  36,
+                             "body":  "фокус с кубками и шариками",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое микромагический фокус?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  31,
+                             "body":  "микромагический фокус",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое сценический фокус?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  27,
+                             "body":  "сценический фокус",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое иллюзионный платок?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  28,
+                             "body":  "иллюзионный платок",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое волшебная палочка?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  27,
+                             "body":  "волшебная палочка",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое иллюзионный ящик?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  26,
+                             "body":  "иллюзионный ящик",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое фокус с освобождением?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  31,
+                             "body":  "фокус с освобождением",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое ментальный фокус?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  26,
+                             "body":  "ментальный фокус",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое эффект возникновения множества предметов?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  50,
+                             "body":  "эффект возникновения множества предметов",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое эффект проникновения?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  30,
+                             "body":  "эффект проникновения",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое эффект предсказания?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  29,
+                             "body":  "эффект предсказания",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое использует реквизит*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  30,
+                             "body":  "использует реквизит*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое использует технику исполнения*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  40,
+                             "body":  "использует технику исполнения*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое создаёт иллюзионный эффект*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  37,
+                             "body":  "создаёт иллюзионный эффект*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое исполняется иллюзионистом*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  36,
+                             "body":  "исполняется иллюзионистом*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое исполняется с помощью ассистента*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  43,
+                             "body":  "исполняется с помощью ассистента*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое демонстрируется зрителю*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  34,
+                             "body":  "демонстрируется зрителю*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое является частью представления*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  40,
+                             "body":  "является частью представления*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое предшествует фокусу*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  30,
+                             "body":  "предшествует фокусу*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое является вариантом фокуса*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  36,
+                             "body":  "является вариантом фокуса*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое содержит карту*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  25,
+                             "body":  "содержит карту*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое выбран зрителем*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  26,
+                             "body":  "выбран зрителем*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое скрывается иллюзионистом*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  35,
+                             "body":  "скрывается иллюзионистом*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое направляет внимание на*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  33,
+                             "body":  "направляет внимание на*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое участвует в представлении*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  36,
+                             "body":  "участвует в представлении*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое входит в иллюзионный номер*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  37,
+                             "body":  "входит в иллюзионный номер*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое начинается с фокуса*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  30,
+                             "body":  "начинается с фокуса*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое заканчивается фокусом*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  32,
+                             "body":  "заканчивается фокусом*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое превращается в*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  25,
+                             "body":  "превращается в*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое восстанавливается из*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  31,
+                             "body":  "восстанавливается из*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое достигается техникой*?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  31,
+                             "body":  "достигается техникой*",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Амбициозная карта?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  27,
+                             "body":  "Амбициозная карта",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Исчезновение монеты французским сбросом?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  49,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Разрезанная и восстановленная верёвка?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  47,
+                             "body":  "Разрезанная и восстановленная верёвка",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Кубки и шарики?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  24,
+                             "body":  "Кубки и шарики",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Летающий стол?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  23,
+                             "body":  "Летающий стол",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Книжный тест?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  22,
+                             "body":  "Книжный тест",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Освобождение от наручников?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  36,
+                             "body":  "Освобождение от наручников",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Французский сброс?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  27,
+                             "body":  "Французский сброс",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Монета полдоллара?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  27,
+                             "body":  "Монета полдоллара",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что такое Исчезновение монеты из руки?",
+        "intent":  "about_entity",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  10,
+                             "end":  37,
+                             "body":  "Исчезновение монеты из руки",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Какой реквизит используется в Исчезновение монеты французским сбросом?",
+        "intent":  "magic_prop_query",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  30,
+                             "end":  69,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что из реквизита нужно для фокуса Исчезновение монеты французским сбросом?",
+        "intent":  "magic_prop_query",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  34,
+                             "end":  73,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Назови реквизит для фокуса Исчезновение монеты французским сбросом.",
+        "intent":  "magic_prop_query",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  27,
+                             "end":  66,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Какая техника используется в Исчезновение монеты французским сбросом?",
+        "intent":  "magic_technique_query",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  29,
+                             "end":  68,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Какой техникой выполняют Исчезновение монеты французским сбросом?",
+        "intent":  "magic_technique_query",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  25,
+                             "end":  64,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Назови технику исполнения фокуса Исчезновение монеты французским сбросом.",
+        "intent":  "magic_technique_query",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  33,
+                             "end":  72,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Какой эффект создаёт Исчезновение монеты французским сбросом?",
+        "intent":  "magic_effect_query",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  21,
+                             "end":  60,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Что видит зритель во время фокуса Исчезновение монеты французским сбросом?",
+        "intent":  "magic_effect_query",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  34,
+                             "end":  73,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "text":  "Назови эффект фокуса Исчезновение монеты французским сбросом.",
+        "intent":  "magic_effect_query",
+        "entities":  [
+                         {
+                             "entity":  "magic_entity:rrel_entity",
+                             "start":  21,
+                             "end":  60,
+                             "body":  "Исчезновение монеты французским сбросом",
+                             "entities":  [
+
+                                          ]
+                         }
+                     ],
+        "traits":  [
+
+                   ]
+    }
+]

@@ -1,0 +1,520 @@
+{
+    "language":  "ru",
+    "entity":  {
+                   "name":  "magic_entity",
+                   "role":  "rrel_entity",
+                   "lookup_strategy":  "keywords",
+                   "values":  [
+                                  {
+                                      "system_identifier":  "concept_magic_performance_entity",
+                                      "value":  "сущность иллюзионного искусства",
+                                      "synonyms":  [
+                                                       "сущность иллюзионного искусства"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magic_trick",
+                                      "value":  "фокус",
+                                      "synonyms":  [
+                                                       "фокус"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magic_routine",
+                                      "value":  "иллюзионный номер",
+                                      "synonyms":  [
+                                                       "иллюзионный номер"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magic_show",
+                                      "value":  "иллюзионное представление",
+                                      "synonyms":  [
+                                                       "иллюзионное представление"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magic_participant",
+                                      "value":  "участник иллюзионного представления",
+                                      "synonyms":  [
+                                                       "участник иллюзионного представления"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magician",
+                                      "value":  "иллюзионист",
+                                      "synonyms":  [
+                                                       "иллюзионист"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_assistant",
+                                      "value":  "ассистент иллюзиониста",
+                                      "synonyms":  [
+                                                       "ассистент иллюзиониста"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_spectator",
+                                      "value":  "зритель фокуса",
+                                      "synonyms":  [
+                                                       "зритель фокуса"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magic_prop",
+                                      "value":  "иллюзионный реквизит",
+                                      "synonyms":  [
+                                                       "иллюзионный реквизит"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_playing_card",
+                                      "value":  "игральная карта",
+                                      "synonyms":  [
+                                                       "игральная карта"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_card_deck",
+                                      "value":  "колода игральных карт",
+                                      "synonyms":  [
+                                                       "колода игральных карт"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_coin",
+                                      "value":  "монета для фокуса",
+                                      "synonyms":  [
+                                                       "монета для фокуса"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_rope",
+                                      "value":  "верёвка для фокуса",
+                                      "synonyms":  [
+                                                       "верёвка для фокуса"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_cup",
+                                      "value":  "кубок для фокуса",
+                                      "synonyms":  [
+                                                       "кубок для фокуса"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_ball",
+                                      "value":  "шарик для фокуса",
+                                      "synonyms":  [
+                                                       "шарик для фокуса"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magic_technique",
+                                      "value":  "техника исполнения фокуса",
+                                      "synonyms":  [
+                                                       "техника исполнения фокуса"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_sleight_of_hand",
+                                      "value":  "ловкость рук",
+                                      "synonyms":  [
+                                                       "ловкость рук"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_misdirection",
+                                      "value":  "отвлечение внимания",
+                                      "synonyms":  [
+                                                       "отвлечение внимания"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magic_effect",
+                                      "value":  "иллюзионный эффект",
+                                      "synonyms":  [
+                                                       "иллюзионный эффект"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_appearance_effect",
+                                      "value":  "эффект появления",
+                                      "synonyms":  [
+                                                       "эффект появления"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_vanish_effect",
+                                      "value":  "эффект исчезновения",
+                                      "synonyms":  [
+                                                       "эффект исчезновения"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_transformation_effect",
+                                      "value":  "эффект превращения",
+                                      "synonyms":  [
+                                                       "эффект превращения"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_transposition_effect",
+                                      "value":  "эффект перемещения",
+                                      "synonyms":  [
+                                                       "эффект перемещения"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_restoration_effect",
+                                      "value":  "эффект восстановления",
+                                      "synonyms":  [
+                                                       "эффект восстановления"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_levitation_effect",
+                                      "value":  "эффект левитации",
+                                      "synonyms":  [
+                                                       "эффект левитации"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_mentalism_effect",
+                                      "value":  "ментальный эффект",
+                                      "synonyms":  [
+                                                       "ментальный эффект"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_card_trick",
+                                      "value":  "карточный фокус",
+                                      "synonyms":  [
+                                                       "карточный фокус"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_coin_trick",
+                                      "value":  "фокус с монетой",
+                                      "synonyms":  [
+                                                       "фокус с монетой"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_rope_trick",
+                                      "value":  "фокус с верёвкой",
+                                      "synonyms":  [
+                                                       "фокус с верёвкой"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_cups_and_balls_trick",
+                                      "value":  "фокус с кубками и шариками",
+                                      "synonyms":  [
+                                                       "фокус с кубками и шариками"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_close_up_trick",
+                                      "value":  "микромагический фокус",
+                                      "synonyms":  [
+                                                       "микромагический фокус"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_stage_trick",
+                                      "value":  "сценический фокус",
+                                      "synonyms":  [
+                                                       "сценический фокус"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_silk_handkerchief",
+                                      "value":  "иллюзионный платок",
+                                      "synonyms":  [
+                                                       "иллюзионный платок"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magic_wand",
+                                      "value":  "волшебная палочка",
+                                      "synonyms":  [
+                                                       "волшебная палочка"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_magic_box",
+                                      "value":  "иллюзионный ящик",
+                                      "synonyms":  [
+                                                       "иллюзионный ящик"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_escape_trick",
+                                      "value":  "фокус с освобождением",
+                                      "synonyms":  [
+                                                       "фокус с освобождением"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_mentalism_trick",
+                                      "value":  "ментальный фокус",
+                                      "synonyms":  [
+                                                       "ментальный фокус"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_production_effect",
+                                      "value":  "эффект возникновения множества предметов",
+                                      "synonyms":  [
+                                                       "эффект возникновения множества предметов"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_penetration_effect",
+                                      "value":  "эффект проникновения",
+                                      "synonyms":  [
+                                                       "эффект проникновения"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "concept_prediction_effect",
+                                      "value":  "эффект предсказания",
+                                      "synonyms":  [
+                                                       "эффект предсказания"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_uses_prop",
+                                      "value":  "использует реквизит*",
+                                      "synonyms":  [
+                                                       "использует реквизит*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_uses_technique",
+                                      "value":  "использует технику исполнения*",
+                                      "synonyms":  [
+                                                       "использует технику исполнения*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_creates_effect",
+                                      "value":  "создаёт иллюзионный эффект*",
+                                      "synonyms":  [
+                                                       "создаёт иллюзионный эффект*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_performed_by",
+                                      "value":  "исполняется иллюзионистом*",
+                                      "synonyms":  [
+                                                       "исполняется иллюзионистом*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_assisted_by",
+                                      "value":  "исполняется с помощью ассистента*",
+                                      "synonyms":  [
+                                                       "исполняется с помощью ассистента*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_presented_to",
+                                      "value":  "демонстрируется зрителю*",
+                                      "synonyms":  [
+                                                       "демонстрируется зрителю*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_part_of_show",
+                                      "value":  "является частью представления*",
+                                      "synonyms":  [
+                                                       "является частью представления*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_precedes_trick",
+                                      "value":  "предшествует фокусу*",
+                                      "synonyms":  [
+                                                       "предшествует фокусу*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_variant_of_trick",
+                                      "value":  "является вариантом фокуса*",
+                                      "synonyms":  [
+                                                       "является вариантом фокуса*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_contains_card",
+                                      "value":  "содержит карту*",
+                                      "synonyms":  [
+                                                       "содержит карту*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_selected_by_spectator",
+                                      "value":  "выбран зрителем*",
+                                      "synonyms":  [
+                                                       "выбран зрителем*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_hidden_by_magician",
+                                      "value":  "скрывается иллюзионистом*",
+                                      "synonyms":  [
+                                                       "скрывается иллюзионистом*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_attention_directed_to",
+                                      "value":  "направляет внимание на*",
+                                      "synonyms":  [
+                                                       "направляет внимание на*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_participates_in_show",
+                                      "value":  "участвует в представлении*",
+                                      "synonyms":  [
+                                                       "участвует в представлении*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_included_in_routine",
+                                      "value":  "входит в иллюзионный номер*",
+                                      "synonyms":  [
+                                                       "входит в иллюзионный номер*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_routine_begins_with",
+                                      "value":  "начинается с фокуса*",
+                                      "synonyms":  [
+                                                       "начинается с фокуса*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_routine_ends_with",
+                                      "value":  "заканчивается фокусом*",
+                                      "synonyms":  [
+                                                       "заканчивается фокусом*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_transforms_into",
+                                      "value":  "превращается в*",
+                                      "synonyms":  [
+                                                       "превращается в*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_restored_from",
+                                      "value":  "восстанавливается из*",
+                                      "synonyms":  [
+                                                       "восстанавливается из*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "nrel_effect_achieved_by",
+                                      "value":  "достигается техникой*",
+                                      "synonyms":  [
+                                                       "достигается техникой*"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "trick_ambitious_card",
+                                      "value":  "Амбициозная карта",
+                                      "synonyms":  [
+                                                       "Амбициозная карта"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "trick_coin_vanish",
+                                      "value":  "Исчезновение монеты французским сбросом",
+                                      "synonyms":  [
+                                                       "Исчезновение монеты французским сбросом"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "trick_cut_and_restored_rope",
+                                      "value":  "Разрезанная и восстановленная верёвка",
+                                      "synonyms":  [
+                                                       "Разрезанная и восстановленная верёвка"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "trick_cups_and_balls",
+                                      "value":  "Кубки и шарики",
+                                      "synonyms":  [
+                                                       "Кубки и шарики"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "trick_floating_table",
+                                      "value":  "Летающий стол",
+                                      "synonyms":  [
+                                                       "Летающий стол"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "trick_book_test",
+                                      "value":  "Книжный тест",
+                                      "synonyms":  [
+                                                       "Книжный тест"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "trick_handcuff_escape",
+                                      "value":  "Освобождение от наручников",
+                                      "synonyms":  [
+                                                       "Освобождение от наручников"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "french_drop",
+                                      "value":  "Французский сброс",
+                                      "synonyms":  [
+                                                       "Французский сброс"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "half_dollar_coin",
+                                      "value":  "Монета полдоллара",
+                                      "synonyms":  [
+                                                       "Монета полдоллара"
+                                                   ]
+                                  },
+                                  {
+                                      "system_identifier":  "effect_coin_vanish",
+                                      "value":  "Исчезновение монеты из руки",
+                                      "synonyms":  [
+                                                       "Исчезновение монеты из руки"
+                                                   ]
+                                  }
+                              ]
+               },
+    "intents":  [
+                    {
+                        "name":  "about_entity",
+                        "description":  "Запрос определения сущности предметной области"
+                    },
+                    {
+                        "name":  "magic_prop_query",
+                        "description":  "Запрос реквизита фокуса"
+                    },
+                    {
+                        "name":  "magic_technique_query",
+                        "description":  "Запрос техники исполнения фокуса"
+                    },
+                    {
+                        "name":  "magic_effect_query",
+                        "description":  "Запрос эффекта фокуса"
+                    }
+                ],
+    "utterance_count":  79,
+    "entity_value_count":  70
+}
