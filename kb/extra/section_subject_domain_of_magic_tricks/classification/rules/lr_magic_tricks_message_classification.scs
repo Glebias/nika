@@ -1,0 +1,2133 @@
+if_magic_message_001 = [*
+    _message_001
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_001;;
+    @magic_message_link_001 = _[Что такое сущность иллюзионного искусства?];;
+    .._translation_001 _-> @magic_message_link_001;;
+*];;
+
+@magic_message_link_001 => nrel_system_identifier: [_magic_message_link_001];;
+
+then_magic_message_001 = [*
+    concept_message_about_entity _-> _message_001;;
+    _message_001 _-> rrel_entity:: concept_magic_performance_entity;;
+*];;
+
+lr_classify_magic_message_001
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_001 => then_magic_message_001)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_001;
+-> then_magic_message_001;;
+
+concept_template_with_links
+-> if_magic_message_001;;
+
+if_magic_message_002 = [*
+    _message_002
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_002;;
+    @magic_message_link_002 = _[Что такое фокус?];;
+    .._translation_002 _-> @magic_message_link_002;;
+*];;
+
+@magic_message_link_002 => nrel_system_identifier: [_magic_message_link_002];;
+
+then_magic_message_002 = [*
+    concept_message_about_entity _-> _message_002;;
+    _message_002 _-> rrel_entity:: concept_magic_trick;;
+*];;
+
+lr_classify_magic_message_002
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_002 => then_magic_message_002)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_002;
+-> then_magic_message_002;;
+
+concept_template_with_links
+-> if_magic_message_002;;
+
+if_magic_message_003 = [*
+    _message_003
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_003;;
+    @magic_message_link_003 = _[Что такое иллюзионный номер?];;
+    .._translation_003 _-> @magic_message_link_003;;
+*];;
+
+@magic_message_link_003 => nrel_system_identifier: [_magic_message_link_003];;
+
+then_magic_message_003 = [*
+    concept_message_about_entity _-> _message_003;;
+    _message_003 _-> rrel_entity:: concept_magic_routine;;
+*];;
+
+lr_classify_magic_message_003
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_003 => then_magic_message_003)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_003;
+-> then_magic_message_003;;
+
+concept_template_with_links
+-> if_magic_message_003;;
+
+if_magic_message_004 = [*
+    _message_004
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_004;;
+    @magic_message_link_004 = _[Что такое иллюзионное представление?];;
+    .._translation_004 _-> @magic_message_link_004;;
+*];;
+
+@magic_message_link_004 => nrel_system_identifier: [_magic_message_link_004];;
+
+then_magic_message_004 = [*
+    concept_message_about_entity _-> _message_004;;
+    _message_004 _-> rrel_entity:: concept_magic_show;;
+*];;
+
+lr_classify_magic_message_004
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_004 => then_magic_message_004)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_004;
+-> then_magic_message_004;;
+
+concept_template_with_links
+-> if_magic_message_004;;
+
+if_magic_message_005 = [*
+    _message_005
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_005;;
+    @magic_message_link_005 = _[Что такое участник иллюзионного представления?];;
+    .._translation_005 _-> @magic_message_link_005;;
+*];;
+
+@magic_message_link_005 => nrel_system_identifier: [_magic_message_link_005];;
+
+then_magic_message_005 = [*
+    concept_message_about_entity _-> _message_005;;
+    _message_005 _-> rrel_entity:: concept_magic_participant;;
+*];;
+
+lr_classify_magic_message_005
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_005 => then_magic_message_005)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_005;
+-> then_magic_message_005;;
+
+concept_template_with_links
+-> if_magic_message_005;;
+
+if_magic_message_006 = [*
+    _message_006
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_006;;
+    @magic_message_link_006 = _[Что такое иллюзионист?];;
+    .._translation_006 _-> @magic_message_link_006;;
+*];;
+
+@magic_message_link_006 => nrel_system_identifier: [_magic_message_link_006];;
+
+then_magic_message_006 = [*
+    concept_message_about_entity _-> _message_006;;
+    _message_006 _-> rrel_entity:: concept_magician;;
+*];;
+
+lr_classify_magic_message_006
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_006 => then_magic_message_006)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_006;
+-> then_magic_message_006;;
+
+concept_template_with_links
+-> if_magic_message_006;;
+
+if_magic_message_007 = [*
+    _message_007
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_007;;
+    @magic_message_link_007 = _[Что такое ассистент иллюзиониста?];;
+    .._translation_007 _-> @magic_message_link_007;;
+*];;
+
+@magic_message_link_007 => nrel_system_identifier: [_magic_message_link_007];;
+
+then_magic_message_007 = [*
+    concept_message_about_entity _-> _message_007;;
+    _message_007 _-> rrel_entity:: concept_assistant;;
+*];;
+
+lr_classify_magic_message_007
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_007 => then_magic_message_007)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_007;
+-> then_magic_message_007;;
+
+concept_template_with_links
+-> if_magic_message_007;;
+
+if_magic_message_008 = [*
+    _message_008
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_008;;
+    @magic_message_link_008 = _[Что такое зритель фокуса?];;
+    .._translation_008 _-> @magic_message_link_008;;
+*];;
+
+@magic_message_link_008 => nrel_system_identifier: [_magic_message_link_008];;
+
+then_magic_message_008 = [*
+    concept_message_about_entity _-> _message_008;;
+    _message_008 _-> rrel_entity:: concept_spectator;;
+*];;
+
+lr_classify_magic_message_008
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_008 => then_magic_message_008)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_008;
+-> then_magic_message_008;;
+
+concept_template_with_links
+-> if_magic_message_008;;
+
+if_magic_message_009 = [*
+    _message_009
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_009;;
+    @magic_message_link_009 = _[Что такое иллюзионный реквизит?];;
+    .._translation_009 _-> @magic_message_link_009;;
+*];;
+
+@magic_message_link_009 => nrel_system_identifier: [_magic_message_link_009];;
+
+then_magic_message_009 = [*
+    concept_message_about_entity _-> _message_009;;
+    _message_009 _-> rrel_entity:: concept_magic_prop;;
+*];;
+
+lr_classify_magic_message_009
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_009 => then_magic_message_009)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_009;
+-> then_magic_message_009;;
+
+concept_template_with_links
+-> if_magic_message_009;;
+
+if_magic_message_010 = [*
+    _message_010
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_010;;
+    @magic_message_link_010 = _[Что такое игральная карта?];;
+    .._translation_010 _-> @magic_message_link_010;;
+*];;
+
+@magic_message_link_010 => nrel_system_identifier: [_magic_message_link_010];;
+
+then_magic_message_010 = [*
+    concept_message_about_entity _-> _message_010;;
+    _message_010 _-> rrel_entity:: concept_playing_card;;
+*];;
+
+lr_classify_magic_message_010
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_010 => then_magic_message_010)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_010;
+-> then_magic_message_010;;
+
+concept_template_with_links
+-> if_magic_message_010;;
+
+if_magic_message_011 = [*
+    _message_011
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_011;;
+    @magic_message_link_011 = _[Что такое колода игральных карт?];;
+    .._translation_011 _-> @magic_message_link_011;;
+*];;
+
+@magic_message_link_011 => nrel_system_identifier: [_magic_message_link_011];;
+
+then_magic_message_011 = [*
+    concept_message_about_entity _-> _message_011;;
+    _message_011 _-> rrel_entity:: concept_card_deck;;
+*];;
+
+lr_classify_magic_message_011
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_011 => then_magic_message_011)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_011;
+-> then_magic_message_011;;
+
+concept_template_with_links
+-> if_magic_message_011;;
+
+if_magic_message_012 = [*
+    _message_012
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_012;;
+    @magic_message_link_012 = _[Что такое монета для фокуса?];;
+    .._translation_012 _-> @magic_message_link_012;;
+*];;
+
+@magic_message_link_012 => nrel_system_identifier: [_magic_message_link_012];;
+
+then_magic_message_012 = [*
+    concept_message_about_entity _-> _message_012;;
+    _message_012 _-> rrel_entity:: concept_coin;;
+*];;
+
+lr_classify_magic_message_012
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_012 => then_magic_message_012)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_012;
+-> then_magic_message_012;;
+
+concept_template_with_links
+-> if_magic_message_012;;
+
+if_magic_message_013 = [*
+    _message_013
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_013;;
+    @magic_message_link_013 = _[Что такое верёвка для фокуса?];;
+    .._translation_013 _-> @magic_message_link_013;;
+*];;
+
+@magic_message_link_013 => nrel_system_identifier: [_magic_message_link_013];;
+
+then_magic_message_013 = [*
+    concept_message_about_entity _-> _message_013;;
+    _message_013 _-> rrel_entity:: concept_rope;;
+*];;
+
+lr_classify_magic_message_013
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_013 => then_magic_message_013)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_013;
+-> then_magic_message_013;;
+
+concept_template_with_links
+-> if_magic_message_013;;
+
+if_magic_message_014 = [*
+    _message_014
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_014;;
+    @magic_message_link_014 = _[Что такое кубок для фокуса?];;
+    .._translation_014 _-> @magic_message_link_014;;
+*];;
+
+@magic_message_link_014 => nrel_system_identifier: [_magic_message_link_014];;
+
+then_magic_message_014 = [*
+    concept_message_about_entity _-> _message_014;;
+    _message_014 _-> rrel_entity:: concept_cup;;
+*];;
+
+lr_classify_magic_message_014
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_014 => then_magic_message_014)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_014;
+-> then_magic_message_014;;
+
+concept_template_with_links
+-> if_magic_message_014;;
+
+if_magic_message_015 = [*
+    _message_015
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_015;;
+    @magic_message_link_015 = _[Что такое шарик для фокуса?];;
+    .._translation_015 _-> @magic_message_link_015;;
+*];;
+
+@magic_message_link_015 => nrel_system_identifier: [_magic_message_link_015];;
+
+then_magic_message_015 = [*
+    concept_message_about_entity _-> _message_015;;
+    _message_015 _-> rrel_entity:: concept_ball;;
+*];;
+
+lr_classify_magic_message_015
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_015 => then_magic_message_015)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_015;
+-> then_magic_message_015;;
+
+concept_template_with_links
+-> if_magic_message_015;;
+
+if_magic_message_016 = [*
+    _message_016
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_016;;
+    @magic_message_link_016 = _[Что такое техника исполнения фокуса?];;
+    .._translation_016 _-> @magic_message_link_016;;
+*];;
+
+@magic_message_link_016 => nrel_system_identifier: [_magic_message_link_016];;
+
+then_magic_message_016 = [*
+    concept_message_about_entity _-> _message_016;;
+    _message_016 _-> rrel_entity:: concept_magic_technique;;
+*];;
+
+lr_classify_magic_message_016
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_016 => then_magic_message_016)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_016;
+-> then_magic_message_016;;
+
+concept_template_with_links
+-> if_magic_message_016;;
+
+if_magic_message_017 = [*
+    _message_017
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_017;;
+    @magic_message_link_017 = _[Что такое ловкость рук?];;
+    .._translation_017 _-> @magic_message_link_017;;
+*];;
+
+@magic_message_link_017 => nrel_system_identifier: [_magic_message_link_017];;
+
+then_magic_message_017 = [*
+    concept_message_about_entity _-> _message_017;;
+    _message_017 _-> rrel_entity:: concept_sleight_of_hand;;
+*];;
+
+lr_classify_magic_message_017
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_017 => then_magic_message_017)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_017;
+-> then_magic_message_017;;
+
+concept_template_with_links
+-> if_magic_message_017;;
+
+if_magic_message_018 = [*
+    _message_018
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_018;;
+    @magic_message_link_018 = _[Что такое отвлечение внимания?];;
+    .._translation_018 _-> @magic_message_link_018;;
+*];;
+
+@magic_message_link_018 => nrel_system_identifier: [_magic_message_link_018];;
+
+then_magic_message_018 = [*
+    concept_message_about_entity _-> _message_018;;
+    _message_018 _-> rrel_entity:: concept_misdirection;;
+*];;
+
+lr_classify_magic_message_018
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_018 => then_magic_message_018)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_018;
+-> then_magic_message_018;;
+
+concept_template_with_links
+-> if_magic_message_018;;
+
+if_magic_message_019 = [*
+    _message_019
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_019;;
+    @magic_message_link_019 = _[Что такое иллюзионный эффект?];;
+    .._translation_019 _-> @magic_message_link_019;;
+*];;
+
+@magic_message_link_019 => nrel_system_identifier: [_magic_message_link_019];;
+
+then_magic_message_019 = [*
+    concept_message_about_entity _-> _message_019;;
+    _message_019 _-> rrel_entity:: concept_magic_effect;;
+*];;
+
+lr_classify_magic_message_019
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_019 => then_magic_message_019)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_019;
+-> then_magic_message_019;;
+
+concept_template_with_links
+-> if_magic_message_019;;
+
+if_magic_message_020 = [*
+    _message_020
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_020;;
+    @magic_message_link_020 = _[Что такое эффект появления?];;
+    .._translation_020 _-> @magic_message_link_020;;
+*];;
+
+@magic_message_link_020 => nrel_system_identifier: [_magic_message_link_020];;
+
+then_magic_message_020 = [*
+    concept_message_about_entity _-> _message_020;;
+    _message_020 _-> rrel_entity:: concept_appearance_effect;;
+*];;
+
+lr_classify_magic_message_020
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_020 => then_magic_message_020)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_020;
+-> then_magic_message_020;;
+
+concept_template_with_links
+-> if_magic_message_020;;
+
+if_magic_message_021 = [*
+    _message_021
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_021;;
+    @magic_message_link_021 = _[Что такое эффект исчезновения?];;
+    .._translation_021 _-> @magic_message_link_021;;
+*];;
+
+@magic_message_link_021 => nrel_system_identifier: [_magic_message_link_021];;
+
+then_magic_message_021 = [*
+    concept_message_about_entity _-> _message_021;;
+    _message_021 _-> rrel_entity:: concept_vanish_effect;;
+*];;
+
+lr_classify_magic_message_021
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_021 => then_magic_message_021)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_021;
+-> then_magic_message_021;;
+
+concept_template_with_links
+-> if_magic_message_021;;
+
+if_magic_message_022 = [*
+    _message_022
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_022;;
+    @magic_message_link_022 = _[Что такое эффект превращения?];;
+    .._translation_022 _-> @magic_message_link_022;;
+*];;
+
+@magic_message_link_022 => nrel_system_identifier: [_magic_message_link_022];;
+
+then_magic_message_022 = [*
+    concept_message_about_entity _-> _message_022;;
+    _message_022 _-> rrel_entity:: concept_transformation_effect;;
+*];;
+
+lr_classify_magic_message_022
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_022 => then_magic_message_022)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_022;
+-> then_magic_message_022;;
+
+concept_template_with_links
+-> if_magic_message_022;;
+
+if_magic_message_023 = [*
+    _message_023
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_023;;
+    @magic_message_link_023 = _[Что такое эффект перемещения?];;
+    .._translation_023 _-> @magic_message_link_023;;
+*];;
+
+@magic_message_link_023 => nrel_system_identifier: [_magic_message_link_023];;
+
+then_magic_message_023 = [*
+    concept_message_about_entity _-> _message_023;;
+    _message_023 _-> rrel_entity:: concept_transposition_effect;;
+*];;
+
+lr_classify_magic_message_023
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_023 => then_magic_message_023)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_023;
+-> then_magic_message_023;;
+
+concept_template_with_links
+-> if_magic_message_023;;
+
+if_magic_message_024 = [*
+    _message_024
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_024;;
+    @magic_message_link_024 = _[Что такое эффект восстановления?];;
+    .._translation_024 _-> @magic_message_link_024;;
+*];;
+
+@magic_message_link_024 => nrel_system_identifier: [_magic_message_link_024];;
+
+then_magic_message_024 = [*
+    concept_message_about_entity _-> _message_024;;
+    _message_024 _-> rrel_entity:: concept_restoration_effect;;
+*];;
+
+lr_classify_magic_message_024
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_024 => then_magic_message_024)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_024;
+-> then_magic_message_024;;
+
+concept_template_with_links
+-> if_magic_message_024;;
+
+if_magic_message_025 = [*
+    _message_025
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_025;;
+    @magic_message_link_025 = _[Что такое эффект левитации?];;
+    .._translation_025 _-> @magic_message_link_025;;
+*];;
+
+@magic_message_link_025 => nrel_system_identifier: [_magic_message_link_025];;
+
+then_magic_message_025 = [*
+    concept_message_about_entity _-> _message_025;;
+    _message_025 _-> rrel_entity:: concept_levitation_effect;;
+*];;
+
+lr_classify_magic_message_025
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_025 => then_magic_message_025)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_025;
+-> then_magic_message_025;;
+
+concept_template_with_links
+-> if_magic_message_025;;
+
+if_magic_message_026 = [*
+    _message_026
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_026;;
+    @magic_message_link_026 = _[Что такое ментальный эффект?];;
+    .._translation_026 _-> @magic_message_link_026;;
+*];;
+
+@magic_message_link_026 => nrel_system_identifier: [_magic_message_link_026];;
+
+then_magic_message_026 = [*
+    concept_message_about_entity _-> _message_026;;
+    _message_026 _-> rrel_entity:: concept_mentalism_effect;;
+*];;
+
+lr_classify_magic_message_026
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_026 => then_magic_message_026)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_026;
+-> then_magic_message_026;;
+
+concept_template_with_links
+-> if_magic_message_026;;
+
+if_magic_message_027 = [*
+    _message_027
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_027;;
+    @magic_message_link_027 = _[Что такое карточный фокус?];;
+    .._translation_027 _-> @magic_message_link_027;;
+*];;
+
+@magic_message_link_027 => nrel_system_identifier: [_magic_message_link_027];;
+
+then_magic_message_027 = [*
+    concept_message_about_entity _-> _message_027;;
+    _message_027 _-> rrel_entity:: concept_card_trick;;
+*];;
+
+lr_classify_magic_message_027
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_027 => then_magic_message_027)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_027;
+-> then_magic_message_027;;
+
+concept_template_with_links
+-> if_magic_message_027;;
+
+if_magic_message_028 = [*
+    _message_028
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_028;;
+    @magic_message_link_028 = _[Что такое фокус с монетой?];;
+    .._translation_028 _-> @magic_message_link_028;;
+*];;
+
+@magic_message_link_028 => nrel_system_identifier: [_magic_message_link_028];;
+
+then_magic_message_028 = [*
+    concept_message_about_entity _-> _message_028;;
+    _message_028 _-> rrel_entity:: concept_coin_trick;;
+*];;
+
+lr_classify_magic_message_028
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_028 => then_magic_message_028)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_028;
+-> then_magic_message_028;;
+
+concept_template_with_links
+-> if_magic_message_028;;
+
+if_magic_message_029 = [*
+    _message_029
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_029;;
+    @magic_message_link_029 = _[Что такое фокус с верёвкой?];;
+    .._translation_029 _-> @magic_message_link_029;;
+*];;
+
+@magic_message_link_029 => nrel_system_identifier: [_magic_message_link_029];;
+
+then_magic_message_029 = [*
+    concept_message_about_entity _-> _message_029;;
+    _message_029 _-> rrel_entity:: concept_rope_trick;;
+*];;
+
+lr_classify_magic_message_029
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_029 => then_magic_message_029)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_029;
+-> then_magic_message_029;;
+
+concept_template_with_links
+-> if_magic_message_029;;
+
+if_magic_message_030 = [*
+    _message_030
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_030;;
+    @magic_message_link_030 = _[Что такое фокус с кубками и шариками?];;
+    .._translation_030 _-> @magic_message_link_030;;
+*];;
+
+@magic_message_link_030 => nrel_system_identifier: [_magic_message_link_030];;
+
+then_magic_message_030 = [*
+    concept_message_about_entity _-> _message_030;;
+    _message_030 _-> rrel_entity:: concept_cups_and_balls_trick;;
+*];;
+
+lr_classify_magic_message_030
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_030 => then_magic_message_030)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_030;
+-> then_magic_message_030;;
+
+concept_template_with_links
+-> if_magic_message_030;;
+
+if_magic_message_031 = [*
+    _message_031
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_031;;
+    @magic_message_link_031 = _[Что такое микромагический фокус?];;
+    .._translation_031 _-> @magic_message_link_031;;
+*];;
+
+@magic_message_link_031 => nrel_system_identifier: [_magic_message_link_031];;
+
+then_magic_message_031 = [*
+    concept_message_about_entity _-> _message_031;;
+    _message_031 _-> rrel_entity:: concept_close_up_trick;;
+*];;
+
+lr_classify_magic_message_031
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_031 => then_magic_message_031)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_031;
+-> then_magic_message_031;;
+
+concept_template_with_links
+-> if_magic_message_031;;
+
+if_magic_message_032 = [*
+    _message_032
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_032;;
+    @magic_message_link_032 = _[Что такое сценический фокус?];;
+    .._translation_032 _-> @magic_message_link_032;;
+*];;
+
+@magic_message_link_032 => nrel_system_identifier: [_magic_message_link_032];;
+
+then_magic_message_032 = [*
+    concept_message_about_entity _-> _message_032;;
+    _message_032 _-> rrel_entity:: concept_stage_trick;;
+*];;
+
+lr_classify_magic_message_032
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_032 => then_magic_message_032)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_032;
+-> then_magic_message_032;;
+
+concept_template_with_links
+-> if_magic_message_032;;
+
+if_magic_message_033 = [*
+    _message_033
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_033;;
+    @magic_message_link_033 = _[Что такое иллюзионный платок?];;
+    .._translation_033 _-> @magic_message_link_033;;
+*];;
+
+@magic_message_link_033 => nrel_system_identifier: [_magic_message_link_033];;
+
+then_magic_message_033 = [*
+    concept_message_about_entity _-> _message_033;;
+    _message_033 _-> rrel_entity:: concept_silk_handkerchief;;
+*];;
+
+lr_classify_magic_message_033
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_033 => then_magic_message_033)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_033;
+-> then_magic_message_033;;
+
+concept_template_with_links
+-> if_magic_message_033;;
+
+if_magic_message_034 = [*
+    _message_034
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_034;;
+    @magic_message_link_034 = _[Что такое волшебная палочка?];;
+    .._translation_034 _-> @magic_message_link_034;;
+*];;
+
+@magic_message_link_034 => nrel_system_identifier: [_magic_message_link_034];;
+
+then_magic_message_034 = [*
+    concept_message_about_entity _-> _message_034;;
+    _message_034 _-> rrel_entity:: concept_magic_wand;;
+*];;
+
+lr_classify_magic_message_034
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_034 => then_magic_message_034)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_034;
+-> then_magic_message_034;;
+
+concept_template_with_links
+-> if_magic_message_034;;
+
+if_magic_message_035 = [*
+    _message_035
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_035;;
+    @magic_message_link_035 = _[Что такое иллюзионный ящик?];;
+    .._translation_035 _-> @magic_message_link_035;;
+*];;
+
+@magic_message_link_035 => nrel_system_identifier: [_magic_message_link_035];;
+
+then_magic_message_035 = [*
+    concept_message_about_entity _-> _message_035;;
+    _message_035 _-> rrel_entity:: concept_magic_box;;
+*];;
+
+lr_classify_magic_message_035
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_035 => then_magic_message_035)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_035;
+-> then_magic_message_035;;
+
+concept_template_with_links
+-> if_magic_message_035;;
+
+if_magic_message_036 = [*
+    _message_036
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_036;;
+    @magic_message_link_036 = _[Что такое фокус с освобождением?];;
+    .._translation_036 _-> @magic_message_link_036;;
+*];;
+
+@magic_message_link_036 => nrel_system_identifier: [_magic_message_link_036];;
+
+then_magic_message_036 = [*
+    concept_message_about_entity _-> _message_036;;
+    _message_036 _-> rrel_entity:: concept_escape_trick;;
+*];;
+
+lr_classify_magic_message_036
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_036 => then_magic_message_036)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_036;
+-> then_magic_message_036;;
+
+concept_template_with_links
+-> if_magic_message_036;;
+
+if_magic_message_037 = [*
+    _message_037
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_037;;
+    @magic_message_link_037 = _[Что такое ментальный фокус?];;
+    .._translation_037 _-> @magic_message_link_037;;
+*];;
+
+@magic_message_link_037 => nrel_system_identifier: [_magic_message_link_037];;
+
+then_magic_message_037 = [*
+    concept_message_about_entity _-> _message_037;;
+    _message_037 _-> rrel_entity:: concept_mentalism_trick;;
+*];;
+
+lr_classify_magic_message_037
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_037 => then_magic_message_037)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_037;
+-> then_magic_message_037;;
+
+concept_template_with_links
+-> if_magic_message_037;;
+
+if_magic_message_038 = [*
+    _message_038
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_038;;
+    @magic_message_link_038 = _[Что такое эффект возникновения множества предметов?];;
+    .._translation_038 _-> @magic_message_link_038;;
+*];;
+
+@magic_message_link_038 => nrel_system_identifier: [_magic_message_link_038];;
+
+then_magic_message_038 = [*
+    concept_message_about_entity _-> _message_038;;
+    _message_038 _-> rrel_entity:: concept_production_effect;;
+*];;
+
+lr_classify_magic_message_038
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_038 => then_magic_message_038)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_038;
+-> then_magic_message_038;;
+
+concept_template_with_links
+-> if_magic_message_038;;
+
+if_magic_message_039 = [*
+    _message_039
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_039;;
+    @magic_message_link_039 = _[Что такое эффект проникновения?];;
+    .._translation_039 _-> @magic_message_link_039;;
+*];;
+
+@magic_message_link_039 => nrel_system_identifier: [_magic_message_link_039];;
+
+then_magic_message_039 = [*
+    concept_message_about_entity _-> _message_039;;
+    _message_039 _-> rrel_entity:: concept_penetration_effect;;
+*];;
+
+lr_classify_magic_message_039
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_039 => then_magic_message_039)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_039;
+-> then_magic_message_039;;
+
+concept_template_with_links
+-> if_magic_message_039;;
+
+if_magic_message_040 = [*
+    _message_040
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_040;;
+    @magic_message_link_040 = _[Что такое эффект предсказания?];;
+    .._translation_040 _-> @magic_message_link_040;;
+*];;
+
+@magic_message_link_040 => nrel_system_identifier: [_magic_message_link_040];;
+
+then_magic_message_040 = [*
+    concept_message_about_entity _-> _message_040;;
+    _message_040 _-> rrel_entity:: concept_prediction_effect;;
+*];;
+
+lr_classify_magic_message_040
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_040 => then_magic_message_040)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_040;
+-> then_magic_message_040;;
+
+concept_template_with_links
+-> if_magic_message_040;;
+
+if_magic_message_041 = [*
+    _message_041
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_041;;
+    @magic_message_link_041 = _[Что такое использует реквизит*?];;
+    .._translation_041 _-> @magic_message_link_041;;
+*];;
+
+@magic_message_link_041 => nrel_system_identifier: [_magic_message_link_041];;
+
+then_magic_message_041 = [*
+    concept_message_about_entity _-> _message_041;;
+    _message_041 _-> rrel_entity:: nrel_uses_prop;;
+*];;
+
+lr_classify_magic_message_041
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_041 => then_magic_message_041)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_041;
+-> then_magic_message_041;;
+
+concept_template_with_links
+-> if_magic_message_041;;
+
+if_magic_message_042 = [*
+    _message_042
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_042;;
+    @magic_message_link_042 = _[Что такое использует технику исполнения*?];;
+    .._translation_042 _-> @magic_message_link_042;;
+*];;
+
+@magic_message_link_042 => nrel_system_identifier: [_magic_message_link_042];;
+
+then_magic_message_042 = [*
+    concept_message_about_entity _-> _message_042;;
+    _message_042 _-> rrel_entity:: nrel_uses_technique;;
+*];;
+
+lr_classify_magic_message_042
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_042 => then_magic_message_042)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_042;
+-> then_magic_message_042;;
+
+concept_template_with_links
+-> if_magic_message_042;;
+
+if_magic_message_043 = [*
+    _message_043
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_043;;
+    @magic_message_link_043 = _[Что такое создаёт иллюзионный эффект*?];;
+    .._translation_043 _-> @magic_message_link_043;;
+*];;
+
+@magic_message_link_043 => nrel_system_identifier: [_magic_message_link_043];;
+
+then_magic_message_043 = [*
+    concept_message_about_entity _-> _message_043;;
+    _message_043 _-> rrel_entity:: nrel_creates_effect;;
+*];;
+
+lr_classify_magic_message_043
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_043 => then_magic_message_043)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_043;
+-> then_magic_message_043;;
+
+concept_template_with_links
+-> if_magic_message_043;;
+
+if_magic_message_044 = [*
+    _message_044
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_044;;
+    @magic_message_link_044 = _[Что такое исполняется иллюзионистом*?];;
+    .._translation_044 _-> @magic_message_link_044;;
+*];;
+
+@magic_message_link_044 => nrel_system_identifier: [_magic_message_link_044];;
+
+then_magic_message_044 = [*
+    concept_message_about_entity _-> _message_044;;
+    _message_044 _-> rrel_entity:: nrel_performed_by;;
+*];;
+
+lr_classify_magic_message_044
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_044 => then_magic_message_044)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_044;
+-> then_magic_message_044;;
+
+concept_template_with_links
+-> if_magic_message_044;;
+
+if_magic_message_045 = [*
+    _message_045
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_045;;
+    @magic_message_link_045 = _[Что такое исполняется с помощью ассистента*?];;
+    .._translation_045 _-> @magic_message_link_045;;
+*];;
+
+@magic_message_link_045 => nrel_system_identifier: [_magic_message_link_045];;
+
+then_magic_message_045 = [*
+    concept_message_about_entity _-> _message_045;;
+    _message_045 _-> rrel_entity:: nrel_assisted_by;;
+*];;
+
+lr_classify_magic_message_045
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_045 => then_magic_message_045)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_045;
+-> then_magic_message_045;;
+
+concept_template_with_links
+-> if_magic_message_045;;
+
+if_magic_message_046 = [*
+    _message_046
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_046;;
+    @magic_message_link_046 = _[Что такое демонстрируется зрителю*?];;
+    .._translation_046 _-> @magic_message_link_046;;
+*];;
+
+@magic_message_link_046 => nrel_system_identifier: [_magic_message_link_046];;
+
+then_magic_message_046 = [*
+    concept_message_about_entity _-> _message_046;;
+    _message_046 _-> rrel_entity:: nrel_presented_to;;
+*];;
+
+lr_classify_magic_message_046
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_046 => then_magic_message_046)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_046;
+-> then_magic_message_046;;
+
+concept_template_with_links
+-> if_magic_message_046;;
+
+if_magic_message_047 = [*
+    _message_047
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_047;;
+    @magic_message_link_047 = _[Что такое является частью представления*?];;
+    .._translation_047 _-> @magic_message_link_047;;
+*];;
+
+@magic_message_link_047 => nrel_system_identifier: [_magic_message_link_047];;
+
+then_magic_message_047 = [*
+    concept_message_about_entity _-> _message_047;;
+    _message_047 _-> rrel_entity:: nrel_part_of_show;;
+*];;
+
+lr_classify_magic_message_047
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_047 => then_magic_message_047)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_047;
+-> then_magic_message_047;;
+
+concept_template_with_links
+-> if_magic_message_047;;
+
+if_magic_message_048 = [*
+    _message_048
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_048;;
+    @magic_message_link_048 = _[Что такое предшествует фокусу*?];;
+    .._translation_048 _-> @magic_message_link_048;;
+*];;
+
+@magic_message_link_048 => nrel_system_identifier: [_magic_message_link_048];;
+
+then_magic_message_048 = [*
+    concept_message_about_entity _-> _message_048;;
+    _message_048 _-> rrel_entity:: nrel_precedes_trick;;
+*];;
+
+lr_classify_magic_message_048
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_048 => then_magic_message_048)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_048;
+-> then_magic_message_048;;
+
+concept_template_with_links
+-> if_magic_message_048;;
+
+if_magic_message_049 = [*
+    _message_049
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_049;;
+    @magic_message_link_049 = _[Что такое является вариантом фокуса*?];;
+    .._translation_049 _-> @magic_message_link_049;;
+*];;
+
+@magic_message_link_049 => nrel_system_identifier: [_magic_message_link_049];;
+
+then_magic_message_049 = [*
+    concept_message_about_entity _-> _message_049;;
+    _message_049 _-> rrel_entity:: nrel_variant_of_trick;;
+*];;
+
+lr_classify_magic_message_049
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_049 => then_magic_message_049)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_049;
+-> then_magic_message_049;;
+
+concept_template_with_links
+-> if_magic_message_049;;
+
+if_magic_message_050 = [*
+    _message_050
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_050;;
+    @magic_message_link_050 = _[Что такое содержит карту*?];;
+    .._translation_050 _-> @magic_message_link_050;;
+*];;
+
+@magic_message_link_050 => nrel_system_identifier: [_magic_message_link_050];;
+
+then_magic_message_050 = [*
+    concept_message_about_entity _-> _message_050;;
+    _message_050 _-> rrel_entity:: nrel_contains_card;;
+*];;
+
+lr_classify_magic_message_050
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_050 => then_magic_message_050)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_050;
+-> then_magic_message_050;;
+
+concept_template_with_links
+-> if_magic_message_050;;
+
+if_magic_message_051 = [*
+    _message_051
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_051;;
+    @magic_message_link_051 = _[Что такое выбран зрителем*?];;
+    .._translation_051 _-> @magic_message_link_051;;
+*];;
+
+@magic_message_link_051 => nrel_system_identifier: [_magic_message_link_051];;
+
+then_magic_message_051 = [*
+    concept_message_about_entity _-> _message_051;;
+    _message_051 _-> rrel_entity:: nrel_selected_by_spectator;;
+*];;
+
+lr_classify_magic_message_051
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_051 => then_magic_message_051)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_051;
+-> then_magic_message_051;;
+
+concept_template_with_links
+-> if_magic_message_051;;
+
+if_magic_message_052 = [*
+    _message_052
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_052;;
+    @magic_message_link_052 = _[Что такое скрывается иллюзионистом*?];;
+    .._translation_052 _-> @magic_message_link_052;;
+*];;
+
+@magic_message_link_052 => nrel_system_identifier: [_magic_message_link_052];;
+
+then_magic_message_052 = [*
+    concept_message_about_entity _-> _message_052;;
+    _message_052 _-> rrel_entity:: nrel_hidden_by_magician;;
+*];;
+
+lr_classify_magic_message_052
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_052 => then_magic_message_052)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_052;
+-> then_magic_message_052;;
+
+concept_template_with_links
+-> if_magic_message_052;;
+
+if_magic_message_053 = [*
+    _message_053
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_053;;
+    @magic_message_link_053 = _[Что такое направляет внимание на*?];;
+    .._translation_053 _-> @magic_message_link_053;;
+*];;
+
+@magic_message_link_053 => nrel_system_identifier: [_magic_message_link_053];;
+
+then_magic_message_053 = [*
+    concept_message_about_entity _-> _message_053;;
+    _message_053 _-> rrel_entity:: nrel_attention_directed_to;;
+*];;
+
+lr_classify_magic_message_053
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_053 => then_magic_message_053)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_053;
+-> then_magic_message_053;;
+
+concept_template_with_links
+-> if_magic_message_053;;
+
+if_magic_message_054 = [*
+    _message_054
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_054;;
+    @magic_message_link_054 = _[Что такое участвует в представлении*?];;
+    .._translation_054 _-> @magic_message_link_054;;
+*];;
+
+@magic_message_link_054 => nrel_system_identifier: [_magic_message_link_054];;
+
+then_magic_message_054 = [*
+    concept_message_about_entity _-> _message_054;;
+    _message_054 _-> rrel_entity:: nrel_participates_in_show;;
+*];;
+
+lr_classify_magic_message_054
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_054 => then_magic_message_054)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_054;
+-> then_magic_message_054;;
+
+concept_template_with_links
+-> if_magic_message_054;;
+
+if_magic_message_055 = [*
+    _message_055
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_055;;
+    @magic_message_link_055 = _[Что такое входит в иллюзионный номер*?];;
+    .._translation_055 _-> @magic_message_link_055;;
+*];;
+
+@magic_message_link_055 => nrel_system_identifier: [_magic_message_link_055];;
+
+then_magic_message_055 = [*
+    concept_message_about_entity _-> _message_055;;
+    _message_055 _-> rrel_entity:: nrel_included_in_routine;;
+*];;
+
+lr_classify_magic_message_055
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_055 => then_magic_message_055)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_055;
+-> then_magic_message_055;;
+
+concept_template_with_links
+-> if_magic_message_055;;
+
+if_magic_message_056 = [*
+    _message_056
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_056;;
+    @magic_message_link_056 = _[Что такое начинается с фокуса*?];;
+    .._translation_056 _-> @magic_message_link_056;;
+*];;
+
+@magic_message_link_056 => nrel_system_identifier: [_magic_message_link_056];;
+
+then_magic_message_056 = [*
+    concept_message_about_entity _-> _message_056;;
+    _message_056 _-> rrel_entity:: nrel_routine_begins_with;;
+*];;
+
+lr_classify_magic_message_056
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_056 => then_magic_message_056)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_056;
+-> then_magic_message_056;;
+
+concept_template_with_links
+-> if_magic_message_056;;
+
+if_magic_message_057 = [*
+    _message_057
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_057;;
+    @magic_message_link_057 = _[Что такое заканчивается фокусом*?];;
+    .._translation_057 _-> @magic_message_link_057;;
+*];;
+
+@magic_message_link_057 => nrel_system_identifier: [_magic_message_link_057];;
+
+then_magic_message_057 = [*
+    concept_message_about_entity _-> _message_057;;
+    _message_057 _-> rrel_entity:: nrel_routine_ends_with;;
+*];;
+
+lr_classify_magic_message_057
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_057 => then_magic_message_057)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_057;
+-> then_magic_message_057;;
+
+concept_template_with_links
+-> if_magic_message_057;;
+
+if_magic_message_058 = [*
+    _message_058
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_058;;
+    @magic_message_link_058 = _[Что такое превращается в*?];;
+    .._translation_058 _-> @magic_message_link_058;;
+*];;
+
+@magic_message_link_058 => nrel_system_identifier: [_magic_message_link_058];;
+
+then_magic_message_058 = [*
+    concept_message_about_entity _-> _message_058;;
+    _message_058 _-> rrel_entity:: nrel_transforms_into;;
+*];;
+
+lr_classify_magic_message_058
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_058 => then_magic_message_058)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_058;
+-> then_magic_message_058;;
+
+concept_template_with_links
+-> if_magic_message_058;;
+
+if_magic_message_059 = [*
+    _message_059
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_059;;
+    @magic_message_link_059 = _[Что такое восстанавливается из*?];;
+    .._translation_059 _-> @magic_message_link_059;;
+*];;
+
+@magic_message_link_059 => nrel_system_identifier: [_magic_message_link_059];;
+
+then_magic_message_059 = [*
+    concept_message_about_entity _-> _message_059;;
+    _message_059 _-> rrel_entity:: nrel_restored_from;;
+*];;
+
+lr_classify_magic_message_059
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_059 => then_magic_message_059)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_059;
+-> then_magic_message_059;;
+
+concept_template_with_links
+-> if_magic_message_059;;
+
+if_magic_message_060 = [*
+    _message_060
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_060;;
+    @magic_message_link_060 = _[Что такое достигается техникой*?];;
+    .._translation_060 _-> @magic_message_link_060;;
+*];;
+
+@magic_message_link_060 => nrel_system_identifier: [_magic_message_link_060];;
+
+then_magic_message_060 = [*
+    concept_message_about_entity _-> _message_060;;
+    _message_060 _-> rrel_entity:: nrel_effect_achieved_by;;
+*];;
+
+lr_classify_magic_message_060
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_060 => then_magic_message_060)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_060;
+-> then_magic_message_060;;
+
+concept_template_with_links
+-> if_magic_message_060;;
+
+if_magic_message_061 = [*
+    _message_061
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_061;;
+    @magic_message_link_061 = _[Что такое Амбициозная карта?];;
+    .._translation_061 _-> @magic_message_link_061;;
+*];;
+
+@magic_message_link_061 => nrel_system_identifier: [_magic_message_link_061];;
+
+then_magic_message_061 = [*
+    concept_message_about_entity _-> _message_061;;
+    _message_061 _-> rrel_entity:: trick_ambitious_card;;
+*];;
+
+lr_classify_magic_message_061
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_061 => then_magic_message_061)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_061;
+-> then_magic_message_061;;
+
+concept_template_with_links
+-> if_magic_message_061;;
+
+if_magic_message_062 = [*
+    _message_062
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_062;;
+    @magic_message_link_062 = _[Что такое Исчезновение монеты французским сбросом?];;
+    .._translation_062 _-> @magic_message_link_062;;
+*];;
+
+@magic_message_link_062 => nrel_system_identifier: [_magic_message_link_062];;
+
+then_magic_message_062 = [*
+    concept_message_about_entity _-> _message_062;;
+    _message_062 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_062
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_062 => then_magic_message_062)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_062;
+-> then_magic_message_062;;
+
+concept_template_with_links
+-> if_magic_message_062;;
+
+if_magic_message_063 = [*
+    _message_063
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_063;;
+    @magic_message_link_063 = _[Что такое Разрезанная и восстановленная верёвка?];;
+    .._translation_063 _-> @magic_message_link_063;;
+*];;
+
+@magic_message_link_063 => nrel_system_identifier: [_magic_message_link_063];;
+
+then_magic_message_063 = [*
+    concept_message_about_entity _-> _message_063;;
+    _message_063 _-> rrel_entity:: trick_cut_and_restored_rope;;
+*];;
+
+lr_classify_magic_message_063
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_063 => then_magic_message_063)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_063;
+-> then_magic_message_063;;
+
+concept_template_with_links
+-> if_magic_message_063;;
+
+if_magic_message_064 = [*
+    _message_064
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_064;;
+    @magic_message_link_064 = _[Что такое Кубки и шарики?];;
+    .._translation_064 _-> @magic_message_link_064;;
+*];;
+
+@magic_message_link_064 => nrel_system_identifier: [_magic_message_link_064];;
+
+then_magic_message_064 = [*
+    concept_message_about_entity _-> _message_064;;
+    _message_064 _-> rrel_entity:: trick_cups_and_balls;;
+*];;
+
+lr_classify_magic_message_064
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_064 => then_magic_message_064)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_064;
+-> then_magic_message_064;;
+
+concept_template_with_links
+-> if_magic_message_064;;
+
+if_magic_message_065 = [*
+    _message_065
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_065;;
+    @magic_message_link_065 = _[Что такое Летающий стол?];;
+    .._translation_065 _-> @magic_message_link_065;;
+*];;
+
+@magic_message_link_065 => nrel_system_identifier: [_magic_message_link_065];;
+
+then_magic_message_065 = [*
+    concept_message_about_entity _-> _message_065;;
+    _message_065 _-> rrel_entity:: trick_floating_table;;
+*];;
+
+lr_classify_magic_message_065
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_065 => then_magic_message_065)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_065;
+-> then_magic_message_065;;
+
+concept_template_with_links
+-> if_magic_message_065;;
+
+if_magic_message_066 = [*
+    _message_066
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_066;;
+    @magic_message_link_066 = _[Что такое Книжный тест?];;
+    .._translation_066 _-> @magic_message_link_066;;
+*];;
+
+@magic_message_link_066 => nrel_system_identifier: [_magic_message_link_066];;
+
+then_magic_message_066 = [*
+    concept_message_about_entity _-> _message_066;;
+    _message_066 _-> rrel_entity:: trick_book_test;;
+*];;
+
+lr_classify_magic_message_066
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_066 => then_magic_message_066)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_066;
+-> then_magic_message_066;;
+
+concept_template_with_links
+-> if_magic_message_066;;
+
+if_magic_message_067 = [*
+    _message_067
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_067;;
+    @magic_message_link_067 = _[Что такое Освобождение от наручников?];;
+    .._translation_067 _-> @magic_message_link_067;;
+*];;
+
+@magic_message_link_067 => nrel_system_identifier: [_magic_message_link_067];;
+
+then_magic_message_067 = [*
+    concept_message_about_entity _-> _message_067;;
+    _message_067 _-> rrel_entity:: trick_handcuff_escape;;
+*];;
+
+lr_classify_magic_message_067
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_067 => then_magic_message_067)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_067;
+-> then_magic_message_067;;
+
+concept_template_with_links
+-> if_magic_message_067;;
+
+if_magic_message_068 = [*
+    _message_068
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_068;;
+    @magic_message_link_068 = _[Что такое Французский сброс?];;
+    .._translation_068 _-> @magic_message_link_068;;
+*];;
+
+@magic_message_link_068 => nrel_system_identifier: [_magic_message_link_068];;
+
+then_magic_message_068 = [*
+    concept_message_about_entity _-> _message_068;;
+    _message_068 _-> rrel_entity:: french_drop;;
+*];;
+
+lr_classify_magic_message_068
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_068 => then_magic_message_068)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_068;
+-> then_magic_message_068;;
+
+concept_template_with_links
+-> if_magic_message_068;;
+
+if_magic_message_069 = [*
+    _message_069
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_069;;
+    @magic_message_link_069 = _[Что такое Монета полдоллара?];;
+    .._translation_069 _-> @magic_message_link_069;;
+*];;
+
+@magic_message_link_069 => nrel_system_identifier: [_magic_message_link_069];;
+
+then_magic_message_069 = [*
+    concept_message_about_entity _-> _message_069;;
+    _message_069 _-> rrel_entity:: half_dollar_coin;;
+*];;
+
+lr_classify_magic_message_069
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_069 => then_magic_message_069)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_069;
+-> then_magic_message_069;;
+
+concept_template_with_links
+-> if_magic_message_069;;
+
+if_magic_message_070 = [*
+    _message_070
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_070;;
+    @magic_message_link_070 = _[Что такое Исчезновение монеты из руки?];;
+    .._translation_070 _-> @magic_message_link_070;;
+*];;
+
+@magic_message_link_070 => nrel_system_identifier: [_magic_message_link_070];;
+
+then_magic_message_070 = [*
+    concept_message_about_entity _-> _message_070;;
+    _message_070 _-> rrel_entity:: effect_coin_vanish;;
+*];;
+
+lr_classify_magic_message_070
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_070 => then_magic_message_070)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_070;
+-> then_magic_message_070;;
+
+concept_template_with_links
+-> if_magic_message_070;;
+
+if_magic_message_071 = [*
+    _message_071
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_071;;
+    @magic_message_link_071 = _[Какой реквизит используется в Исчезновение монеты французским сбросом?];;
+    .._translation_071 _-> @magic_message_link_071;;
+*];;
+
+@magic_message_link_071 => nrel_system_identifier: [_magic_message_link_071];;
+
+then_magic_message_071 = [*
+    concept_message_about_magic_prop _-> _message_071;;
+    _message_071 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_071
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_071 => then_magic_message_071)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_071;
+-> then_magic_message_071;;
+
+concept_template_with_links
+-> if_magic_message_071;;
+
+if_magic_message_072 = [*
+    _message_072
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_072;;
+    @magic_message_link_072 = _[Что из реквизита нужно для фокуса Исчезновение монеты французским сбросом?];;
+    .._translation_072 _-> @magic_message_link_072;;
+*];;
+
+@magic_message_link_072 => nrel_system_identifier: [_magic_message_link_072];;
+
+then_magic_message_072 = [*
+    concept_message_about_magic_prop _-> _message_072;;
+    _message_072 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_072
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_072 => then_magic_message_072)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_072;
+-> then_magic_message_072;;
+
+concept_template_with_links
+-> if_magic_message_072;;
+
+if_magic_message_073 = [*
+    _message_073
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_073;;
+    @magic_message_link_073 = _[Назови реквизит для фокуса Исчезновение монеты французским сбросом.];;
+    .._translation_073 _-> @magic_message_link_073;;
+*];;
+
+@magic_message_link_073 => nrel_system_identifier: [_magic_message_link_073];;
+
+then_magic_message_073 = [*
+    concept_message_about_magic_prop _-> _message_073;;
+    _message_073 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_073
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_073 => then_magic_message_073)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_073;
+-> then_magic_message_073;;
+
+concept_template_with_links
+-> if_magic_message_073;;
+
+if_magic_message_074 = [*
+    _message_074
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_074;;
+    @magic_message_link_074 = _[Какая техника используется в Исчезновение монеты французским сбросом?];;
+    .._translation_074 _-> @magic_message_link_074;;
+*];;
+
+@magic_message_link_074 => nrel_system_identifier: [_magic_message_link_074];;
+
+then_magic_message_074 = [*
+    concept_message_about_magic_technique _-> _message_074;;
+    _message_074 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_074
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_074 => then_magic_message_074)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_074;
+-> then_magic_message_074;;
+
+concept_template_with_links
+-> if_magic_message_074;;
+
+if_magic_message_075 = [*
+    _message_075
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_075;;
+    @magic_message_link_075 = _[Какой техникой выполняют Исчезновение монеты французским сбросом?];;
+    .._translation_075 _-> @magic_message_link_075;;
+*];;
+
+@magic_message_link_075 => nrel_system_identifier: [_magic_message_link_075];;
+
+then_magic_message_075 = [*
+    concept_message_about_magic_technique _-> _message_075;;
+    _message_075 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_075
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_075 => then_magic_message_075)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_075;
+-> then_magic_message_075;;
+
+concept_template_with_links
+-> if_magic_message_075;;
+
+if_magic_message_076 = [*
+    _message_076
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_076;;
+    @magic_message_link_076 = _[Назови технику исполнения фокуса Исчезновение монеты французским сбросом.];;
+    .._translation_076 _-> @magic_message_link_076;;
+*];;
+
+@magic_message_link_076 => nrel_system_identifier: [_magic_message_link_076];;
+
+then_magic_message_076 = [*
+    concept_message_about_magic_technique _-> _message_076;;
+    _message_076 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_076
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_076 => then_magic_message_076)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_076;
+-> then_magic_message_076;;
+
+concept_template_with_links
+-> if_magic_message_076;;
+
+if_magic_message_077 = [*
+    _message_077
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_077;;
+    @magic_message_link_077 = _[Какой эффект создаёт Исчезновение монеты французским сбросом?];;
+    .._translation_077 _-> @magic_message_link_077;;
+*];;
+
+@magic_message_link_077 => nrel_system_identifier: [_magic_message_link_077];;
+
+then_magic_message_077 = [*
+    concept_message_about_magic_effect _-> _message_077;;
+    _message_077 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_077
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_077 => then_magic_message_077)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_077;
+-> then_magic_message_077;;
+
+concept_template_with_links
+-> if_magic_message_077;;
+
+if_magic_message_078 = [*
+    _message_078
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_078;;
+    @magic_message_link_078 = _[Что видит зритель во время фокуса Исчезновение монеты французским сбросом?];;
+    .._translation_078 _-> @magic_message_link_078;;
+*];;
+
+@magic_message_link_078 => nrel_system_identifier: [_magic_message_link_078];;
+
+then_magic_message_078 = [*
+    concept_message_about_magic_effect _-> _message_078;;
+    _message_078 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_078
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_078 => then_magic_message_078)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_078;
+-> then_magic_message_078;;
+
+concept_template_with_links
+-> if_magic_message_078;;
+
+if_magic_message_079 = [*
+    _message_079
+        _<- concept_message;
+        _<= nrel_sc_text_translation:: .._translation_079;;
+    @magic_message_link_079 = _[Назови эффект фокуса Исчезновение монеты французским сбросом.];;
+    .._translation_079 _-> @magic_message_link_079;;
+*];;
+
+@magic_message_link_079 => nrel_system_identifier: [_magic_message_link_079];;
+
+then_magic_message_079 = [*
+    concept_message_about_magic_effect _-> _message_079;;
+    _message_079 _-> rrel_entity:: trick_coin_vanish;;
+*];;
+
+lr_classify_magic_message_079
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_message_079 => then_magic_message_079)
+    (* <- nrel_implication;; *);;
+
+atomic_logical_formula
+-> if_magic_message_079;
+-> then_magic_message_079;;
+
+concept_template_with_links
+-> if_magic_message_079;;
+
