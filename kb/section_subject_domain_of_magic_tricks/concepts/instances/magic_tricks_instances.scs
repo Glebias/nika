@@ -60,7 +60,9 @@ double_wall_magic_box
 french_drop
 <- concept_magic_technique;
 <- concept_sleight_of_hand;
-=> nrel_main_idtf: [Французский сброс] (* <- lang_ru;; *);;
+=> nrel_main_idtf: [Французский сброс] (* <- lang_ru;; *);
+=> nrel_note:
+    [приём манипуляции с монетой: исполнитель имитирует передачу монеты из одной руки в другую, оставляя её в первой руке.] (* <- lang_ru;; *);;
 
 gaze_misdirection
 <- concept_misdirection;
