@@ -23,6 +23,7 @@ for kind, message_class, relation, noun, verb in KINDS:
         priority = 1 if state == "found" else 3
         state_ru = "факт найден" if state == "found" else "сведений нет"
         noun_genitive = {"prop": "реквизите", "technique": "технике", "effect": "эффекте"}[kind]
+        about = "об" if kind == "effect" else "о"
         parts.append(f"""
 @{rule}_if = [*
     concept_message _-> _message;;
@@ -68,7 +69,7 @@ atomic_logical_formula
 <- sc_node_class;
 <= nrel_inclusion: concept_phrase;
 => nrel_main_idtf:
-    [фраза о {noun_genitive} фокуса: {state_ru}] (* <- lang_ru;; *);;
+    [фраза {about} {noun_genitive} фокуса: {state_ru}] (* <- lang_ru;; *);;
 """)
         if state == "found":
             phrases = (

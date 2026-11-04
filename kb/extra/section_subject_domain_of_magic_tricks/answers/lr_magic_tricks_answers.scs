@@ -273,7 +273,7 @@ concept_phrase_magic_effect_found
 <- sc_node_class;
 <= nrel_inclusion: concept_phrase;
 => nrel_main_idtf:
-    [фраза о эффекте фокуса: факт найден] (* <- lang_ru;; *);;
+    [фраза об эффекте фокуса: факт найден] (* <- lang_ru;; *);;
 
 concept_phrase_magic_effect_found
 -> [Фокус ${_magic_effect_found_entity_name} создаёт эффект ${_magic_effect_found_value_name}.]
@@ -326,7 +326,7 @@ concept_phrase_magic_effect_unknown
 <- sc_node_class;
 <= nrel_inclusion: concept_phrase;
 => nrel_main_idtf:
-    [фраза о эффекте фокуса: сведений нет] (* <- lang_ru;; *);;
+    [фраза об эффекте фокуса: сведений нет] (* <- lang_ru;; *);;
 
 concept_phrase_magic_effect_unknown
 -> [Для фокуса ${_magic_effect_unknown_entity_name} в базе знаний не указан эффект.]
