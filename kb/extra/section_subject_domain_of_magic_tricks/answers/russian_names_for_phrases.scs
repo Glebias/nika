@@ -1,0 +1,13 @@
+// Однозначные русские строки для подстановки в шаблоны фраз ЛР-03.
+nrel_magic_ru_name
+<- sc_node_non_role_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf: [русское название для ответа*] (* <- lang_ru;; *);;
+
+trick_coin_vanish => nrel_magic_ru_name: [Исчезновение монеты французским сбросом] (* <- lang_ru;; *);;
+trick_floating_table => nrel_magic_ru_name: [Летающий стол] (* <- lang_ru;; *);;
+trick_handcuff_escape => nrel_magic_ru_name: [Освобождение от наручников] (* <- lang_ru;; *);;
+half_dollar_coin => nrel_magic_ru_name: [Монета полдоллара] (* <- lang_ru;; *);;
+french_drop => nrel_magic_ru_name: [Французский сброс] (* <- lang_ru;; *);;
+effect_coin_vanish => nrel_magic_ru_name: [Исчезновение монеты из руки] (* <- lang_ru;; *);;

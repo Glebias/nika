@@ -1,0 +1,337 @@
+// ЛР-03: ответы по фактам о фокусах. Приоритет 1 — факт найден, 3 — сведений нет.
+
+
+@lr_answer_magic_prop_found_if = [*
+    concept_message _-> _message;;
+    concept_message_about_magic_prop _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+    _entity _=> nrel_uses_prop:: _value;;
+*];;
+
+@lr_answer_magic_prop_found_then = [*
+    _message _=> nrel_reply:: _reply_message;;
+    concept_message_about_magic_prop _-> _reply_message;;
+    concept_atomic_message _-> _reply_message;;
+*];;
+
+@lr_answer_magic_prop_found_impl = (@lr_answer_magic_prop_found_if => nrel_implication: @lr_answer_magic_prop_found_then);;
+
+lr_answer_magic_prop_found
+<- concept_answer_on_standard_message_rule;
+<- concept_answer_on_standard_message_rule_priority_1;
+=> nrel_answer_pattern: ..lr_answer_magic_prop_found_pattern;
+-> rrel_main_key_sc_element: @lr_answer_magic_prop_found_impl;;
+
+..lr_answer_magic_prop_found_pattern
+<- sc_node_tuple;
+-> rrel_1: concept_phrase_magic_prop_found;;
+
+atomic_logical_formula
+-> @lr_answer_magic_prop_found_if;
+-> @lr_answer_magic_prop_found_then;;
+
+@magic_prop_found_entity_name = _[];;
+@magic_prop_found_entity_name => nrel_system_identifier: [_magic_prop_found_entity_name];;
+
+@magic_prop_found_value_name = _[];;
+@magic_prop_found_value_name => nrel_system_identifier: [_magic_prop_found_value_name];;
+
+
+@concept_phrase_magic_prop_found_template = [*
+    concept_message _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+    _entity _=> nrel_magic_ru_name:: @magic_prop_found_entity_name;;
+    _entity _=> nrel_uses_prop:: _value;;
+    _value _=> nrel_magic_ru_name:: @magic_prop_found_value_name;;
+*];;
+
+concept_phrase_magic_prop_found
+<- sc_node_class;
+<= nrel_inclusion: concept_phrase;
+=> nrel_main_idtf:
+    [фраза о реквизите фокуса: факт найден] (* <- lang_ru;; *);;
+
+concept_phrase_magic_prop_found
+-> [Фокус ${_magic_prop_found_entity_name} использует реквизит ${_magic_prop_found_value_name}.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_prop_found_template;; *);;
+
+concept_phrase_magic_prop_found
+-> [Для фокуса ${_magic_prop_found_entity_name} реквизит — ${_magic_prop_found_value_name}.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_prop_found_template;; *);;
+
+
+@lr_answer_magic_prop_unknown_if = [*
+    concept_message _-> _message;;
+    concept_message_about_magic_prop _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+*];;
+
+@lr_answer_magic_prop_unknown_then = [*
+    _message _=> nrel_reply:: _reply_message;;
+    concept_message_about_magic_prop _-> _reply_message;;
+    concept_atomic_message _-> _reply_message;;
+*];;
+
+@lr_answer_magic_prop_unknown_impl = (@lr_answer_magic_prop_unknown_if => nrel_implication: @lr_answer_magic_prop_unknown_then);;
+
+lr_answer_magic_prop_unknown
+<- concept_answer_on_standard_message_rule;
+<- concept_answer_on_standard_message_rule_priority_3;
+=> nrel_answer_pattern: ..lr_answer_magic_prop_unknown_pattern;
+-> rrel_main_key_sc_element: @lr_answer_magic_prop_unknown_impl;;
+
+..lr_answer_magic_prop_unknown_pattern
+<- sc_node_tuple;
+-> rrel_1: concept_phrase_magic_prop_unknown;;
+
+atomic_logical_formula
+-> @lr_answer_magic_prop_unknown_if;
+-> @lr_answer_magic_prop_unknown_then;;
+
+@magic_prop_unknown_entity_name = _[];;
+@magic_prop_unknown_entity_name => nrel_system_identifier: [_magic_prop_unknown_entity_name];;
+
+
+@concept_phrase_magic_prop_unknown_template = [*
+    concept_message _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+    _entity _=> nrel_magic_ru_name:: @magic_prop_unknown_entity_name;;
+*];;
+
+concept_phrase_magic_prop_unknown
+<- sc_node_class;
+<= nrel_inclusion: concept_phrase;
+=> nrel_main_idtf:
+    [фраза о реквизите фокуса: сведений нет] (* <- lang_ru;; *);;
+
+concept_phrase_magic_prop_unknown
+-> [Для фокуса ${_magic_prop_unknown_entity_name} в базе знаний не указан реквизит.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_prop_unknown_template;; *);;
+
+concept_phrase_magic_prop_unknown
+-> [В базе знаний пока нет сведений по теме «реквизит» для фокуса ${_magic_prop_unknown_entity_name}.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_prop_unknown_template;; *);;
+
+
+@lr_answer_magic_technique_found_if = [*
+    concept_message _-> _message;;
+    concept_message_about_magic_technique _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+    _entity _=> nrel_uses_technique:: _value;;
+*];;
+
+@lr_answer_magic_technique_found_then = [*
+    _message _=> nrel_reply:: _reply_message;;
+    concept_message_about_magic_technique _-> _reply_message;;
+    concept_atomic_message _-> _reply_message;;
+*];;
+
+@lr_answer_magic_technique_found_impl = (@lr_answer_magic_technique_found_if => nrel_implication: @lr_answer_magic_technique_found_then);;
+
+lr_answer_magic_technique_found
+<- concept_answer_on_standard_message_rule;
+<- concept_answer_on_standard_message_rule_priority_1;
+=> nrel_answer_pattern: ..lr_answer_magic_technique_found_pattern;
+-> rrel_main_key_sc_element: @lr_answer_magic_technique_found_impl;;
+
+..lr_answer_magic_technique_found_pattern
+<- sc_node_tuple;
+-> rrel_1: concept_phrase_magic_technique_found;;
+
+atomic_logical_formula
+-> @lr_answer_magic_technique_found_if;
+-> @lr_answer_magic_technique_found_then;;
+
+@magic_technique_found_entity_name = _[];;
+@magic_technique_found_entity_name => nrel_system_identifier: [_magic_technique_found_entity_name];;
+
+@magic_technique_found_value_name = _[];;
+@magic_technique_found_value_name => nrel_system_identifier: [_magic_technique_found_value_name];;
+
+
+@concept_phrase_magic_technique_found_template = [*
+    concept_message _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+    _entity _=> nrel_magic_ru_name:: @magic_technique_found_entity_name;;
+    _entity _=> nrel_uses_technique:: _value;;
+    _value _=> nrel_magic_ru_name:: @magic_technique_found_value_name;;
+*];;
+
+concept_phrase_magic_technique_found
+<- sc_node_class;
+<= nrel_inclusion: concept_phrase;
+=> nrel_main_idtf:
+    [фраза о технике фокуса: факт найден] (* <- lang_ru;; *);;
+
+concept_phrase_magic_technique_found
+-> [Фокус ${_magic_technique_found_entity_name} использует технику ${_magic_technique_found_value_name}.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_technique_found_template;; *);;
+
+concept_phrase_magic_technique_found
+-> [Для фокуса ${_magic_technique_found_entity_name} техника — ${_magic_technique_found_value_name}.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_technique_found_template;; *);;
+
+
+@lr_answer_magic_technique_unknown_if = [*
+    concept_message _-> _message;;
+    concept_message_about_magic_technique _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+*];;
+
+@lr_answer_magic_technique_unknown_then = [*
+    _message _=> nrel_reply:: _reply_message;;
+    concept_message_about_magic_technique _-> _reply_message;;
+    concept_atomic_message _-> _reply_message;;
+*];;
+
+@lr_answer_magic_technique_unknown_impl = (@lr_answer_magic_technique_unknown_if => nrel_implication: @lr_answer_magic_technique_unknown_then);;
+
+lr_answer_magic_technique_unknown
+<- concept_answer_on_standard_message_rule;
+<- concept_answer_on_standard_message_rule_priority_3;
+=> nrel_answer_pattern: ..lr_answer_magic_technique_unknown_pattern;
+-> rrel_main_key_sc_element: @lr_answer_magic_technique_unknown_impl;;
+
+..lr_answer_magic_technique_unknown_pattern
+<- sc_node_tuple;
+-> rrel_1: concept_phrase_magic_technique_unknown;;
+
+atomic_logical_formula
+-> @lr_answer_magic_technique_unknown_if;
+-> @lr_answer_magic_technique_unknown_then;;
+
+@magic_technique_unknown_entity_name = _[];;
+@magic_technique_unknown_entity_name => nrel_system_identifier: [_magic_technique_unknown_entity_name];;
+
+
+@concept_phrase_magic_technique_unknown_template = [*
+    concept_message _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+    _entity _=> nrel_magic_ru_name:: @magic_technique_unknown_entity_name;;
+*];;
+
+concept_phrase_magic_technique_unknown
+<- sc_node_class;
+<= nrel_inclusion: concept_phrase;
+=> nrel_main_idtf:
+    [фраза о технике фокуса: сведений нет] (* <- lang_ru;; *);;
+
+concept_phrase_magic_technique_unknown
+-> [Для фокуса ${_magic_technique_unknown_entity_name} в базе знаний не указан техника.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_technique_unknown_template;; *);;
+
+concept_phrase_magic_technique_unknown
+-> [В базе знаний пока нет сведений по теме «техника» для фокуса ${_magic_technique_unknown_entity_name}.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_technique_unknown_template;; *);;
+
+
+@lr_answer_magic_effect_found_if = [*
+    concept_message _-> _message;;
+    concept_message_about_magic_effect _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+    _entity _=> nrel_creates_effect:: _value;;
+*];;
+
+@lr_answer_magic_effect_found_then = [*
+    _message _=> nrel_reply:: _reply_message;;
+    concept_message_about_magic_effect _-> _reply_message;;
+    concept_atomic_message _-> _reply_message;;
+*];;
+
+@lr_answer_magic_effect_found_impl = (@lr_answer_magic_effect_found_if => nrel_implication: @lr_answer_magic_effect_found_then);;
+
+lr_answer_magic_effect_found
+<- concept_answer_on_standard_message_rule;
+<- concept_answer_on_standard_message_rule_priority_1;
+=> nrel_answer_pattern: ..lr_answer_magic_effect_found_pattern;
+-> rrel_main_key_sc_element: @lr_answer_magic_effect_found_impl;;
+
+..lr_answer_magic_effect_found_pattern
+<- sc_node_tuple;
+-> rrel_1: concept_phrase_magic_effect_found;;
+
+atomic_logical_formula
+-> @lr_answer_magic_effect_found_if;
+-> @lr_answer_magic_effect_found_then;;
+
+@magic_effect_found_entity_name = _[];;
+@magic_effect_found_entity_name => nrel_system_identifier: [_magic_effect_found_entity_name];;
+
+@magic_effect_found_value_name = _[];;
+@magic_effect_found_value_name => nrel_system_identifier: [_magic_effect_found_value_name];;
+
+
+@concept_phrase_magic_effect_found_template = [*
+    concept_message _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+    _entity _=> nrel_magic_ru_name:: @magic_effect_found_entity_name;;
+    _entity _=> nrel_creates_effect:: _value;;
+    _value _=> nrel_magic_ru_name:: @magic_effect_found_value_name;;
+*];;
+
+concept_phrase_magic_effect_found
+<- sc_node_class;
+<= nrel_inclusion: concept_phrase;
+=> nrel_main_idtf:
+    [фраза о эффекте фокуса: факт найден] (* <- lang_ru;; *);;
+
+concept_phrase_magic_effect_found
+-> [Фокус ${_magic_effect_found_entity_name} создаёт эффект ${_magic_effect_found_value_name}.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_effect_found_template;; *);;
+
+concept_phrase_magic_effect_found
+-> [Для фокуса ${_magic_effect_found_entity_name} эффект — ${_magic_effect_found_value_name}.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_effect_found_template;; *);;
+
+
+@lr_answer_magic_effect_unknown_if = [*
+    concept_message _-> _message;;
+    concept_message_about_magic_effect _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+*];;
+
+@lr_answer_magic_effect_unknown_then = [*
+    _message _=> nrel_reply:: _reply_message;;
+    concept_message_about_magic_effect _-> _reply_message;;
+    concept_atomic_message _-> _reply_message;;
+*];;
+
+@lr_answer_magic_effect_unknown_impl = (@lr_answer_magic_effect_unknown_if => nrel_implication: @lr_answer_magic_effect_unknown_then);;
+
+lr_answer_magic_effect_unknown
+<- concept_answer_on_standard_message_rule;
+<- concept_answer_on_standard_message_rule_priority_3;
+=> nrel_answer_pattern: ..lr_answer_magic_effect_unknown_pattern;
+-> rrel_main_key_sc_element: @lr_answer_magic_effect_unknown_impl;;
+
+..lr_answer_magic_effect_unknown_pattern
+<- sc_node_tuple;
+-> rrel_1: concept_phrase_magic_effect_unknown;;
+
+atomic_logical_formula
+-> @lr_answer_magic_effect_unknown_if;
+-> @lr_answer_magic_effect_unknown_then;;
+
+@magic_effect_unknown_entity_name = _[];;
+@magic_effect_unknown_entity_name => nrel_system_identifier: [_magic_effect_unknown_entity_name];;
+
+
+@concept_phrase_magic_effect_unknown_template = [*
+    concept_message _-> _message;;
+    _message _-> rrel_entity:: _entity;;
+    _entity _=> nrel_magic_ru_name:: @magic_effect_unknown_entity_name;;
+*];;
+
+concept_phrase_magic_effect_unknown
+<- sc_node_class;
+<= nrel_inclusion: concept_phrase;
+=> nrel_main_idtf:
+    [фраза о эффекте фокуса: сведений нет] (* <- lang_ru;; *);;
+
+concept_phrase_magic_effect_unknown
+-> [Для фокуса ${_magic_effect_unknown_entity_name} в базе знаний не указан эффект.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_effect_unknown_template;; *);;
+
+concept_phrase_magic_effect_unknown
+-> [В базе знаний пока нет сведений по теме «эффект» для фокуса ${_magic_effect_unknown_entity_name}.]
+    (* <- lang_ru;; => nrel_phrase_template: @concept_phrase_magic_effect_unknown_template;; *);;

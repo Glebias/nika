@@ -1,0 +1,54 @@
+// Дополнительные точные вопросы для демонстрации ответа при отсутствии факта.
+if_magic_missing_prop = [*
+    _message_missing_prop _<- concept_message;;
+    _message_missing_prop _<= nrel_sc_text_translation:: .._translation_missing_prop;;
+    @magic_missing_prop_link = _[Какой реквизит используется в Летающем столе?];;
+    .._translation_missing_prop _-> @magic_missing_prop_link;;
+*];;
+@magic_missing_prop_link => nrel_system_identifier: [_magic_missing_prop_link];;
+then_magic_missing_prop = [*
+    concept_message_about_magic_prop _-> _message_missing_prop;;
+    _message_missing_prop _-> rrel_entity:: trick_floating_table;;
+*];;
+lr_classify_magic_missing_prop
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_missing_prop => then_magic_missing_prop)
+    (* <- nrel_implication;; *);;
+atomic_logical_formula -> if_magic_missing_prop; -> then_magic_missing_prop;;
+concept_template_with_links -> if_magic_missing_prop;;
+
+if_magic_missing_technique = [*
+    _message_missing_technique _<- concept_message;;
+    _message_missing_technique _<= nrel_sc_text_translation:: .._translation_missing_technique;;
+    @magic_missing_technique_link = _[Какая техника используется в Летающем столе?];;
+    .._translation_missing_technique _-> @magic_missing_technique_link;;
+*];;
+@magic_missing_technique_link => nrel_system_identifier: [_magic_missing_technique_link];;
+then_magic_missing_technique = [*
+    concept_message_about_magic_technique _-> _message_missing_technique;;
+    _message_missing_technique _-> rrel_entity:: trick_floating_table;;
+*];;
+lr_classify_magic_missing_technique
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_missing_technique => then_magic_missing_technique)
+    (* <- nrel_implication;; *);;
+atomic_logical_formula -> if_magic_missing_technique; -> then_magic_missing_technique;;
+concept_template_with_links -> if_magic_missing_technique;;
+
+if_magic_missing_effect = [*
+    _message_missing_effect _<- concept_message;;
+    _message_missing_effect _<= nrel_sc_text_translation:: .._translation_missing_effect;;
+    @magic_missing_effect_link = _[Какой эффект создаёт Освобождение от наручников?];;
+    .._translation_missing_effect _-> @magic_missing_effect_link;;
+*];;
+@magic_missing_effect_link => nrel_system_identifier: [_magic_missing_effect_link];;
+then_magic_missing_effect = [*
+    concept_message_about_magic_effect _-> _message_missing_effect;;
+    _message_missing_effect _-> rrel_entity:: trick_handcuff_escape;;
+*];;
+lr_classify_magic_missing_effect
+<- concept_classify_message_rule_priority_1;
+-> rrel_main_key_sc_element: (if_magic_missing_effect => then_magic_missing_effect)
+    (* <- nrel_implication;; *);;
+atomic_logical_formula -> if_magic_missing_effect; -> then_magic_missing_effect;;
+concept_template_with_links -> if_magic_missing_effect;;
